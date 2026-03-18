@@ -26,10 +26,10 @@ Status key: ✅ Agreed | ⚠️ Placeholder — needs your input | 🔒 Fixed (f
 
 | Element | Current text | Status |
 |---|---|---|
-| Label (small caps above name) | Product Leader · Maker · Brighton | ⚠️ Your call — does this feel right? Alternatives: "Senior PM · Maker · Brighton" / "Product · Energy · Brighton" |
+| Label (small caps above name) | Product Leader · 0 to scale · Brighton | ✅ |
 | Name | Ian Kenyon | ✅ |
-| Statement line 1 | Between roles. Building real things. | ⚠️ Placeholder — to be agreed in Story 2 |
-| Statement line 2 (italic gold) | Come and see what I'm making. | ⚠️ Placeholder — to be agreed in Story 2 |
+| Statement line 1 | Experimenting with real world ideas | ✅ |
+| Statement line 2 (italic gold) | See how the projects unfold | ✅ |
 | CTA button 1 | See the Projects | ✅ |
 | CTA button 2 | Get Involved | ✅ |
 | Scroll hint | Scroll | 🔒 |
@@ -41,9 +41,9 @@ Status key: ✅ Agreed | ⚠️ Placeholder — needs your input | 🔒 Fixed (f
 | Element | Current text | Status |
 |---|---|---|
 | Section label | About | ✅ |
-| Lead paragraph | I'm a senior product manager with a background in energy, flexibility markets, and building things from nothing. Right now I'm between roles — and rather than wait, I'm building. | ⚠️ Placeholder — rewrite in Story 2. This should sound like you, not a LinkedIn summary. |
-| Body paragraph | These projects are real: live code, real users, genuine problems worth solving. I build them because I can't not. If you're a PM, a founder, or just someone curious about what I do — take a look around. | ⚠️ Placeholder — refine in Story 2 |
-| Side quote | "Building products is how I think. These are the thoughts." | ⚠️ Placeholder — needs a better line. Should make a PM pause. |
+| Lead paragraph | As an experienced Product Leader who's worked across the full spectrum of the software landscape, I'm used to building things from nothing. I've always had so many ideas, and rather than wait, I'm building. | ✅ |
+| Body paragraph | These projects are real: live code, real users, genuine problems worth solving. I build them by harnessing the new capabilities of working with AI. If you're a PM, a founder, or just someone curious about what I do, please take a look around or get involved. | ✅ |
+| Side quote | "Dedicating time to validating those ideas you have along the way." | ✅ |
 | LinkedIn link text | LinkedIn | ✅ |
 | GitHub link text | GitHub | ✅ |
 
@@ -54,15 +54,15 @@ Status key: ✅ Agreed | ⚠️ Placeholder — needs your input | 🔒 Fixed (f
 | Element | Current text | Status |
 |---|---|---|
 | Section label | Active Projects | ✅ |
-| Section intro | Things I'm building right now. Click through to see the problem, the approach, and how to try them. | ⚠️ Can refine — currently fine as placeholder |
+| Section intro | Live experiments. Click through to see the problem, the approach, and how to try them. | ✅ |
 | Slipstream — status badge | Active development | ✅ |
 | Slipstream — title | Slipstream | ✅ |
-| Slipstream — one-liner | Race GPS ghosts of your past runs — a mobile web app for competitive self-improvement. | ⚠️ Working draft — confirm or rewrite |
+| Slipstream — one-liner | Train and compete with running buddies on the other side of the world, challenge others or run against the best. | ✅ |
 | Slipstream — button 1 | View Project | ✅ |
 | Slipstream — button 2 | Leave Feedback | ✅ |
 | You're-wild — status badge | Live — gathering feedback | ✅ |
 | You're-wild — title | You're-wild | ✅ |
-| You're-wild — one-liner | Discover rewilding projects across the UK — an independent directory of 60+ verified sites. | ⚠️ Working draft — confirm or rewrite |
+| You're-wild — one-liner | A gateway to rewilding yourself and the natural world around you. | ✅ |
 | You're-wild — button 1 | View Project | ✅ |
 | You're-wild — button 2 | Leave Feedback | ✅ |
 
@@ -73,11 +73,11 @@ Status key: ✅ Agreed | ⚠️ Placeholder — needs your input | 🔒 Fixed (f
 | Element | Current text | Status |
 |---|---|---|
 | Section label | Get Involved | ✅ |
-| Section intro | Both projects are in active development and I'm genuinely interested in what real people think. Click through to a project, try it, and leave a note. | ⚠️ Fine as placeholder — confirm or refine |
+| Section intro | My projects are in active development and I'm genuinely interested in what you think. Click through to a project, try it, and become part of the process. | ✅ |
 | Card 1 title | Feedback on Slipstream → | ✅ |
-| Card 1 sub | Try the running app and tell me what works | ⚠️ Could be sharper |
+| Card 1 sub | Try it out, how does it feel, what would compel you to use it long term? | ✅ |
 | Card 2 title | Feedback on You're-wild → | ✅ |
-| Card 2 sub | Explore the rewilding directory and share your thoughts | ⚠️ Could be sharper |
+| Card 2 sub | Explore the re-wilded world, work out how to bring that home with you and give me your thoughts | ✅ |
 
 ---
 
@@ -133,13 +133,11 @@ Status key: ✅ Agreed | ⚠️ Placeholder — needs your input | 🔒 Fixed (f
 
 ---
 
-## STORY 2 PRIORITY — agree these before the session begins
+## STORY 2 — COPY STATUS
 
-These are the most important ones to have ready:
+All home page copy is agreed ✅. Story 2 session can begin — attach this file and Claude will pull all copy straight into the HTML.
 
-1. **Hero statement** — the two lines under your name. What do you actually want to say?
-2. **About lead paragraph** — 2–3 sentences. Who you are, why you're building, what you want people to do.
-3. **Side quote** — one line that makes a PM or hiring manager pause.
-4. **Hero label** — the small caps above your name. "Product Leader · Maker · Brighton" — right or wrong?
-
-Take 10 minutes before Story 2 to fill those four in. Everything else can be refined as we go.
+Still to come in Story 3:
+- Slipstream page — problem, how it works, build stages, next steps
+- You're-wild page — problem, how it works, build stages, next steps
+- Feedback form labels for both projects
