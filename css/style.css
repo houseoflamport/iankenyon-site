@@ -244,7 +244,7 @@ p { max-width: 68ch; }
 }
 .nav-logo:hover { opacity: 0.8; }
 
-.logo-svg { width: 40px; height: 40px; color: var(--charcoal); }
+.logo-img { width: 36px; height: 36px; object-fit: contain; }
 
 .nav-logo-text {
   font-family: var(--font-display);
@@ -663,7 +663,7 @@ p { max-width: 68ch; }
   margin-bottom: var(--space-12);
 }
 
-.footer-logo { width: 44px; height: 44px; margin-bottom: var(--space-3); }
+.footer-logo { width: 44px; height: 44px; object-fit: contain; margin-bottom: var(--space-3); }
 
 .footer-hol {
   font-family: var(--font-display);
