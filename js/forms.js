@@ -71,17 +71,17 @@
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
 
-      // hCaptcha check
-      if (typeof hcaptcha !== 'undefined' && !hcaptcha.getResponse()) {
-        if (error) { error.hidden = false; error.textContent = 'Please complete the captcha before submitting.'; }
-        return;
-      }
-
-      // Require at least a rating or some text
+      // 1. Content validation — must come before captcha check
       const hasRating = form.querySelector('input[name="rating"]:checked');
       const hasText   = Array.from(form.querySelectorAll('textarea')).some(t => t.value.trim().length > 0);
       if (!hasRating && !hasText) {
-        if (error) { error.hidden = false; error.textContent = 'Please share at least a rating or a comment before submitting.'; }
+        if (error) { error.hidden = false; error.textContent = 'Please share at least a star rating or a comment before submitting.'; }
+        return;
+      }
+
+      // 2. hCaptcha check — only runs if content is present
+      if (typeof hcaptcha !== 'undefined' && !hcaptcha.getResponse()) {
+        if (error) { error.hidden = false; error.textContent = 'Please complete the captcha to confirm you\'re human.'; }
         return;
       }
 
