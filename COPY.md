@@ -1,8 +1,8 @@
-# COPY.md — Ian Kenyon Site
+# COPY.md — Ian Kenyon / lampara.world
 ## All website text in one place for review
 
 Last updated: March 2026
-Status key: ✅ Agreed | ⚠️ Placeholder — needs your input | 🔒 Fixed (functional text, don't change)
+Status key: ✅ Agreed | ⚠️ Needs input | 🔒 Fixed (functional text, don't change)
 
 ---
 
@@ -24,12 +24,12 @@ Status key: ✅ Agreed | ⚠️ Placeholder — needs your input | 🔒 Fixed (f
 
 ### HERO
 
-| Element | Current text | Status |
+| Element | Text | Status |
 |---|---|---|
 | Label (small caps above name) | Product Leader · 0 to scale · Brighton | ✅ |
 | Name | Ian Kenyon | ✅ |
-| Statement line 1 | Experimenting with real world ideas | ✅ |
-| Statement line 2 (italic gold) | See how the projects unfold | ✅ |
+| Statement line 1 | I build real products from real ideas. | ✅ |
+| Statement line 2 (italic gold) | Concept to working prototype, faster than was ever possible before. | ✅ |
 | CTA button 1 | See the Projects | ✅ |
 | CTA button 2 | Get Involved | ✅ |
 | Scroll hint | Scroll | 🔒 |
@@ -38,12 +38,12 @@ Status key: ✅ Agreed | ⚠️ Placeholder — needs your input | 🔒 Fixed (f
 
 ### ABOUT
 
-| Element | Current text | Status |
+| Element | Text | Status |
 |---|---|---|
 | Section label | About | ✅ |
-| Lead paragraph | As an experienced Product Leader who's worked across the full spectrum of the software landscape, I'm used to building things from nothing. I've always had so many ideas, and rather than wait, I'm building. | ✅ |
-| Body paragraph | These projects are real: live code, real users, genuine problems worth solving. I build them by harnessing the new capabilities of working with AI. If you're a PM, a founder, or just someone curious about what I do, please take a look around or get involved. | ✅ |
-| Side quote | "Dedicating time to validating those ideas you have along the way." | ✅ |
+| Lead paragraph | I've spent 15 years building products in industries where getting it wrong has real consequences. Energy markets, IoT, grid infrastructure. That background shapes how I think about problems. These projects are what happens when I stop waiting for someone else to greenlight the ideas. | ✅ |
+| Body paragraph | Each one is live, tested, and moving forward. New tools mean the early stage is supercharged, a working prototype in a day, not a quarter. That frees up the real work: getting in front of users and finding out if the idea holds. | ✅ |
+| Side quote | "Ideas I've had for years. Finally able to build them in days." | ✅ |
 | LinkedIn link text | LinkedIn | ✅ |
 | GitHub link text | GitHub | ✅ |
 
@@ -51,18 +51,18 @@ Status key: ✅ Agreed | ⚠️ Placeholder — needs your input | 🔒 Fixed (f
 
 ### PROJECTS
 
-| Element | Current text | Status |
+| Element | Text | Status |
 |---|---|---|
 | Section label | Active Projects | ✅ |
-| Section intro | Live experiments. Click through to see the problem, the approach, and how to try them. | ✅ |
+| Section intro | Real products, real problems, actively in development. Click through to see where each one is and why it exists. | ✅ |
 | Slipstream — status badge | Active development | ✅ |
 | Slipstream — title | Slipstream | ✅ |
-| Slipstream — one-liner | Train and compete with running buddies on the other side of the world, challenge others or run against the best. | ✅ |
+| Slipstream — one-liner | Race a ghost of your past self, or someone else's. Built around the one thing GPS data makes possible but nobody's done simply. | ✅ |
 | Slipstream — button 1 | View Project | ✅ |
 | Slipstream — button 2 | Leave Feedback | ✅ |
-| You're-wild — status badge | Live — gathering feedback | ✅ |
+| You're-wild — status badge | Live, gathering feedback | ✅ |
 | You're-wild — title | You're-wild | ✅ |
-| You're-wild — one-liner | A gateway to rewilding yourself and the natural world around you. | ✅ |
+| You're-wild — one-liner | Discover rewilding sites across the UK and find out how to bring nature back to your own local space. | ✅ |
 | You're-wild — button 1 | View Project | ✅ |
 | You're-wild — button 2 | Leave Feedback | ✅ |
 
@@ -70,74 +70,94 @@ Status key: ✅ Agreed | ⚠️ Placeholder — needs your input | 🔒 Fixed (f
 
 ### GET INVOLVED
 
-| Element | Current text | Status |
+| Element | Text | Status |
 |---|---|---|
 | Section label | Get Involved | ✅ |
-| Section intro | My projects are in active development and I'm genuinely interested in what you think. Click through to a project, try it, and become part of the process. | ✅ |
-| Card 1 title | Feedback on Slipstream → | ✅ |
+| Section intro | These projects get better with real feedback. Try one, break it, tell me what's missing. | ✅ |
+| Card 1 title | Feedback on Slipstream | ✅ |
 | Card 1 sub | Try it out, how does it feel, what would compel you to use it long term? | ✅ |
-| Card 2 title | Feedback on You're-wild → | ✅ |
-| Card 2 sub | Explore the re-wilded world, work out how to bring that home with you and give me your thoughts | ✅ |
+| Card 2 title | Feedback on You're-wild | ✅ |
+| Card 2 sub | Explore the rewilded world, work out how to bring that home with you and give me your thoughts. | ✅ |
 
 ---
 
 ### FOOTER
 
-| Element | Current text | Status |
+| Element | Text | Status |
 |---|---|---|
 | Brand mark | House of Lamport | ✅ |
 | Contact label | Want to get in touch? | ✅ |
 | Email placeholder | your@email.com | 🔒 |
 | Submit button | Send | ✅ |
-| Form note | Just your email — I'll be in touch. | ✅ |
+| Form note | Just your email, I'll be in touch. | ✅ |
 | Copyright | © 2026 Ian Kenyon | ✅ |
 
 ---
 
 ## SLIPSTREAM PAGE (slipstream.html)
-*Built in Story 3 — copy to be added then*
 
-| Element | Notes |
-|---|---|
-| Page title (browser tab) | TBD |
-| Hero one-liner | TBD — confirm or refine from playbook draft |
-| The Problem (2–4 paragraphs) | TBD — draft in Story 3 session |
-| How It Works | TBD |
-| Build Stages | TBD — what are the stage names? |
-| Next Steps (2–3 bullets) | TBD |
-| Feedback form labels | TBD |
+| Element | Text | Status |
+|---|---|---|
+| Page title (browser tab) | Slipstream | ⚠️ |
+| Hero one-liner | ⚠️ | ⚠️ |
+| The Problem — para 1 | ⚠️ | ⚠️ |
+| The Problem — para 2 | ⚠️ | ⚠️ |
+| The Problem — para 3 | ⚠️ | ⚠️ |
+| How It Works — intro | ⚠️ | ⚠️ |
+| How It Works — step 1 | ⚠️ | ⚠️ |
+| How It Works — step 2 | ⚠️ | ⚠️ |
+| How It Works — step 3 | ⚠️ | ⚠️ |
+| Build stage — current | ⚠️ | ⚠️ |
+| Build stage — next | ⚠️ | ⚠️ |
+| Build stage — horizon | ⚠️ | ⚠️ |
+| Next Steps | ⚠️ | ⚠️ |
+| Feedback form — heading | ⚠️ | ⚠️ |
+| Feedback form — question 1 | ⚠️ | ⚠️ |
+| Feedback form — question 2 | ⚠️ | ⚠️ |
+| Feedback form — question 3 | ⚠️ | ⚠️ |
 
 ---
 
 ## YOU'RE-WILD PAGE (youre-wild.html)
-*Built in Story 3 — copy to be added then*
 
-| Element | Notes |
-|---|---|
-| Page title (browser tab) | TBD |
-| Hero one-liner | TBD — confirm or refine from playbook draft |
-| The Problem (2–4 paragraphs) | TBD — draft in Story 3 session |
-| How It Works | TBD |
-| Build Stages | TBD |
-| Next Steps (2–3 bullets) | TBD |
-| Feedback form labels | TBD |
+| Element | Text | Status |
+|---|---|---|
+| Page title (browser tab) | You're-wild | ⚠️ |
+| Hero one-liner | ⚠️ | ⚠️ |
+| The Problem — para 1 | ⚠️ | ⚠️ |
+| The Problem — para 2 | ⚠️ | ⚠️ |
+| The Problem — para 3 | ⚠️ | ⚠️ |
+| How It Works — intro | ⚠️ | ⚠️ |
+| How It Works — step 1 | ⚠️ | ⚠️ |
+| How It Works — step 2 | ⚠️ | ⚠️ |
+| How It Works — step 3 | ⚠️ | ⚠️ |
+| Build stage — current | ⚠️ | ⚠️ |
+| Build stage — next | ⚠️ | ⚠️ |
+| Build stage — horizon | ⚠️ | ⚠️ |
+| Next Steps | ⚠️ | ⚠️ |
+| Feedback form — heading | ⚠️ | ⚠️ |
+| Feedback form — question 1 | ⚠️ | ⚠️ |
+| Feedback form — question 2 | ⚠️ | ⚠️ |
+| Feedback form — question 3 | ⚠️ | ⚠️ |
 
 ---
 
 ## HOW TO USE THIS FILE
 
-1. Edit the ⚠️ items directly in this file — write what you want it to say
-2. At the start of each story session, attach this file alongside the code files
-3. Claude will pull the agreed copy into the HTML — you never have to hunt through code for text
-4. When copy is agreed and live, status changes to ✅
+1. Edit ⚠️ items directly in this file — write what you want it to say
+2. At the start of each coding session, attach this file alongside the code files
+3. Claude will pull agreed copy into the HTML — no hunting through code for text
+4. When copy is agreed and live, change status to ✅
 
 ---
 
-## STORY 2 — COPY STATUS
+## TONE OF VOICE RULES (apply to all copy)
 
-All home page copy is agreed ✅. Story 2 session can begin — attach this file and Claude will pull all copy straight into the HTML.
-
-Still to come in Story 3:
-- Slipstream page — problem, how it works, build stages, next steps
-- You're-wild page — problem, how it works, build stages, next steps
-- Feedback form labels for both projects
+- Direct, curious, quietly confident
+- Plain language, no inflation
+- Short sentences for emphasis, longer for reasoning
+- No corporate filler ("passionate about", "proven track record")
+- No em dash, use a comma instead
+- Warmth comes from specificity, not friendliness
+- Every statement about what something IS must answer "and therefore...?"
+- Add consequence, not adjectives
