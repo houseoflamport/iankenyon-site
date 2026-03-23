@@ -101,7 +101,6 @@
   color: var(--muted);
   line-height: 1.8;
   margin-bottom: var(--space-5);
-  max-width: 100%;
 }
 
 /* ── How It Works ──────────────────────────────────────── */
@@ -133,7 +132,7 @@
 }
 
 .how-step-title { font-size: var(--text-base); font-weight: 600; color: var(--charcoal); margin-bottom: var(--space-3); }
-.how-step-desc { font-size: var(--text-sm); color: var(--muted); line-height: 1.65; max-width: 100%; }
+.how-step-desc { font-size: var(--text-sm); color: var(--muted); line-height: 1.65; }
 
 /* ── Video placeholder ─────────────────────────────────── */
 .video-placeholder {
@@ -153,8 +152,8 @@
   text-align: center;
   padding: var(--space-12);
 }
-.video-placeholder-text { font-family: var(--font-display); font-size: var(--text-lg); font-weight: 600; color: var(--charcoal); max-width: 100%; }
-.video-placeholder-sub { font-size: var(--text-sm); color: var(--muted); max-width: 100%; }
+.video-placeholder-text { font-family: var(--font-display); font-size: var(--text-lg); font-weight: 600; color: var(--charcoal); }
+.video-placeholder-sub { font-size: var(--text-sm); color: var(--muted); }
 
 /* ── Build Stages ──────────────────────────────────────── */
 .stages-trail {
@@ -243,7 +242,6 @@
   font-size: var(--text-base);
   color: var(--muted);
   line-height: 1.7;
-  max-width: 100%;
 }
 .next-steps-list li::before { content: '→'; color: var(--gold); font-weight: 600; flex-shrink: 0; margin-top: 2px; }
 
@@ -251,7 +249,7 @@
 .project-feedback { background: var(--charcoal); }
 .project-feedback .project-section-title { color: var(--cream); }
 .feedback-inner { max-width: 680px; }
-.feedback-intro { font-size: var(--text-base); color: rgba(245,240,232,0.65); line-height: 1.7; margin-bottom: var(--space-10); max-width: 100%; }
+.feedback-intro { font-size: var(--text-base); color: rgba(245,240,232,0.65); line-height: 1.7; margin-bottom: var(--space-10); }
 
 .feedback-form { display: flex; flex-direction: column; gap: var(--space-6); }
 .form-field { display: flex; flex-direction: column; gap: var(--space-2); }

@@ -14,6 +14,9 @@
   --gold:         #C8922A;
   --gold-light:   #E8B86D;
   --gold-pale:    #FDF6E3;
+  --badge-active-text: #9A6D1A;
+  --badge-live-text:   #065F46;
+  --badge-live-dot:    #059669;
   --muted:        #6B7280;
   --muted-light:  #9CA3AF;
   --white:        #FFFFFF;
@@ -40,6 +43,7 @@
   --space-2:  0.5rem;
   --space-3:  0.75rem;
   --space-4:  1rem;
+  --space-5:  1.25rem;
   --space-6:  1.5rem;
   --space-8:  2rem;
   --space-12: 3rem;
@@ -106,7 +110,10 @@ h1, h2, h3, h4 {
   color: var(--charcoal);
 }
 
-p { max-width: 68ch; }
+/* Constrain line length in prose contexts only */
+.project-prose p,
+.about-body,
+.hero-statement { max-width: 68ch; }
 
 /* ── 4. Layout Utilities ───────────────────────────────── */
 .container {
@@ -173,7 +180,11 @@ p { max-width: 68ch; }
   font-size: var(--text-sm);
   font-weight: 600;
   letter-spacing: 0.02em;
-  transition: all var(--dur-base) var(--ease);
+  transition: background var(--dur-base) var(--ease),
+              color var(--dur-base) var(--ease),
+              box-shadow var(--dur-base) var(--ease),
+              transform var(--dur-base) var(--ease),
+              border-color var(--dur-base) var(--ease);
   white-space: nowrap;
   position: relative;
   overflow: hidden;
@@ -563,14 +574,14 @@ p { max-width: 68ch; }
 }
 .status-badge--active {
   background: rgba(200,146,42,0.12);
-  color: #9A6D1A;
+  color: var(--badge-active-text);
 }
 .status-badge--active::before { background: var(--gold); }
 .status-badge--live {
   background: rgba(5,150,105,0.1);
-  color: #065F46;
+  color: var(--badge-live-text);
 }
-.status-badge--live::before { background: #059669; animation: pulse 2s infinite; }
+.status-badge--live::before { background: var(--badge-live-dot); animation: pulse 2s infinite; }
 
 @keyframes pulse {
   0%, 100% { opacity: 1; }
