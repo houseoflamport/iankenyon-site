@@ -52,15 +52,15 @@
   <main>
 
     <!-- ── 1. HERO ───────────────────────────────────────── -->
-    <section class="project-hero">
+    <section class="project-hero" aria-labelledby="slipstream-hero-heading">
       <div class="container">
-        <a href="index.html#projects" class="project-back">← All Projects</a>
+        <a href="index.html#projects" class="project-back"><span aria-hidden="true">←</span> <span>All Projects</span></a>
         <div class="project-hero-inner">
           <div class="project-hero-content">
             <div class="project-hero-meta">
               <span class="status-badge status-badge--active">Active development</span>
             </div>
-            <h1 class="project-hero-title animate-in" style="--delay:0.1s">Slipstream</h1>
+            <h1 class="project-hero-title animate-in" id="slipstream-hero-heading" style="--delay:0.1s">Slipstream</h1>
             <p class="project-hero-desc animate-in" style="--delay:0.25s">
               Train and compete with running buddies on the other side of the world, challenge others or run against the best.
             </p>
@@ -72,17 +72,17 @@
               <a href="#feedback" class="btn btn--ghost">Leave Feedback</a>
             </div>
           </div>
-          <div class="project-hero-visual animate-in" style="--delay:0.3s" aria-hidden="true">
+          <div class="project-hero-visual animate-in" style="--delay:0.3s; color: var(--gold);" aria-hidden="true">
             <div class="project-visual-placeholder">
               <svg viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="80" cy="80" r="60" stroke="#C8922A" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.4"/>
-                <circle cx="80" cy="80" r="40" stroke="#C8922A" stroke-width="1" stroke-dasharray="4 3" opacity="0.25"/>
-                <path d="M50 80 L110 80" stroke="#C8922A" stroke-width="2.5" stroke-linecap="round"/>
-                <path d="M94 66 L110 80 L94 94" stroke="#C8922A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <circle cx="50" cy="80" r="6" fill="#1E2B33"/>
-                <circle cx="50" cy="80" r="3" fill="#C8922A"/>
+                <circle cx="80" cy="80" r="60" stroke="currentColor" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.4"/>
+                <circle cx="80" cy="80" r="40" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3" opacity="0.25"/>
+                <path d="M50 80 L110 80" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M94 66 L110 80 L94 94" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="50" cy="80" r="6" fill="var(--charcoal)"/>
+                <circle cx="50" cy="80" r="3" fill="currentColor"/>
                 <!-- Ghost runner (dashed) -->
-                <circle cx="76" cy="80" r="6" stroke="#C8922A" stroke-width="1.5" stroke-dasharray="3 2" fill="none" opacity="0.5"/>
+                <circle cx="76" cy="80" r="6" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 2" fill="none" opacity="0.5"/>
               </svg>
             </div>
           </div>
@@ -91,9 +91,9 @@
     </section>
 
     <!-- ── 2. THE PROBLEM ────────────────────────────────── -->
-    <section class="project-section project-section--alt" id="problem">
+    <section class="project-section project-section--alt" id="problem" aria-labelledby="sl-problem-heading">
       <div class="container project-prose">
-        <h2 class="project-section-title reveal">The Problem</h2>
+        <h2 class="project-section-title reveal" id="sl-problem-heading">The Problem</h2>
         <p class="project-lead reveal">
           Sports people want to compete, but training alone means no one to pit yourself against.
         </p>
@@ -107,9 +107,9 @@
     </section>
 
     <!-- ── 3. HOW IT WORKS ───────────────────────────────── -->
-    <section class="project-section" id="how-it-works">
+    <section class="project-section" id="how-it-works" aria-labelledby="sl-hiw-heading">
       <div class="container">
-        <h2 class="project-section-title reveal">How It Works</h2>
+        <h2 class="project-section-title reveal" id="sl-hiw-heading">How It Works</h2>
         <div class="how-it-works-grid">
           <div class="how-step reveal">
             <span class="how-step-num">01</span>
@@ -136,14 +136,14 @@
     </section>
 
     <!-- ── 4. VIDEO ──────────────────────────────────────── -->
-    <section class="project-section project-section--alt" id="demo">
+    <section class="project-section project-section--alt" id="demo" aria-labelledby="sl-demo-heading">
       <div class="container">
-        <h2 class="project-section-title reveal">See It In Action</h2>
+        <h2 class="project-section-title reveal" id="sl-demo-heading">See It In Action</h2>
         <div class="video-placeholder reveal">
           <div class="video-placeholder-inner">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <circle cx="12" cy="12" r="10" stroke="#C8922A" stroke-width="1.5"/>
-              <path d="M10 8l6 4-6 4V8z" fill="#C8922A"/>
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" style="color: var(--gold);" aria-hidden="true">
+              <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M10 8l6 4-6 4V8z" fill="currentColor"/>
             </svg>
             <p class="video-placeholder-text">Demo video coming soon</p>
             <p class="video-placeholder-sub">In the meantime, try the live app below</p>
@@ -153,9 +153,9 @@
     </section>
 
     <!-- ── 5. BUILD STAGES ───────────────────────────────── -->
-    <section class="project-section" id="stages">
+    <section class="project-section" id="stages" aria-labelledby="sl-stages-heading">
       <div class="container">
-        <h2 class="project-section-title reveal">Build Stages</h2>
+        <h2 class="project-section-title reveal" id="sl-stages-heading">Build Stages</h2>
         <div class="stages-trail reveal">
 
           <div class="stage stage--done">
@@ -208,9 +208,9 @@
     </section>
 
     <!-- ── 6. NEXT STEPS ─────────────────────────────────── -->
-    <section class="project-section project-section--alt" id="next-steps">
+    <section class="project-section project-section--alt" id="next-steps" aria-labelledby="sl-next-heading">
       <div class="container project-prose">
-        <h2 class="project-section-title reveal">What's Next</h2>
+        <h2 class="project-section-title reveal" id="sl-next-heading">What's Next</h2>
         <ul class="next-steps-list">
           <li class="reveal">Iterate on the prototype based on initial self-testing — fixing edge cases in ghost position calculation and run summary accuracy</li>
           <li class="reveal">Release to a small select group of runners for first real-world feedback</li>
@@ -219,12 +219,12 @@
       </div>
     </section>
 
-    <!-- ── 8. FEEDBACK FORM ──────────────────────────────── -->
-    <section class="project-section project-feedback" id="feedback">
+    <!-- ── 7. FEEDBACK FORM ──────────────────────────────── -->
+    <section class="project-section project-feedback" id="feedback" aria-labelledby="sl-feedback-heading">
       <div class="container">
         <div class="feedback-inner">
           <div class="feedback-header">
-            <h2 class="project-section-title">Share Your Thoughts</h2>
+            <h2 class="project-section-title" id="sl-feedback-heading">Share Your Thoughts</h2>
             <p class="feedback-intro">Tried Slipstream? Your feedback directly shapes what gets built next. It takes two minutes.</p>
           </div>
 
@@ -232,14 +232,16 @@
 
             <!-- Star rating -->
             <div class="form-field">
-              <label class="form-label">Overall, how would you rate it?</label>
-              <div class="star-rating" role="group" aria-label="Star rating">
+              <fieldset>
+                <legend class="form-label">Overall, how would you rate it?</legend>
+                <div class="star-rating">
                 <input type="radio" name="rating" id="s1" value="1" /><label for="s1" title="1 star">★</label>
                 <input type="radio" name="rating" id="s2" value="2" /><label for="s2" title="2 stars">★</label>
                 <input type="radio" name="rating" id="s3" value="3" /><label for="s3" title="3 stars">★</label>
                 <input type="radio" name="rating" id="s4" value="4" /><label for="s4" title="4 stars">★</label>
                 <input type="radio" name="rating" id="s5" value="5" /><label for="s5" title="5 stars">★</label>
               </div>
+            </fieldset>
             </div>
 
             <!-- What worked -->
@@ -290,8 +292,8 @@
 
             <button type="submit" class="btn btn--primary">Send Feedback</button>
 
-            <p class="form-success" id="sl-success" aria-live="polite" hidden>Thanks — this really helps. I'll read every response.</p>
-            <p class="form-error" id="sl-error" aria-live="polite" hidden>Something went wrong. Please try again.</p>
+            <div class="form-success" id="sl-success" role="status" aria-live="polite" hidden>Thanks — this really helps. I'll read every response.</div>
+            <div class="form-error" id="sl-error" role="status" aria-live="polite" hidden>Something went wrong. Please try again.</div>
 
           </form>
         </div>
@@ -316,8 +318,8 @@
               <button type="submit" class="btn btn--primary btn--sm">Send</button>
             </div>
             <p class="footer-form-note">Just your email — I'll be in touch.</p>
-            <p class="footer-form-success" id="footer-success" aria-live="polite" hidden>Thanks — I'll be in touch.</p>
-            <p class="footer-form-error" id="footer-error" aria-live="polite" hidden>Something went wrong.</p>
+            <div class="footer-form-success" id="footer-success" role="status" aria-live="polite" hidden>Thanks — I'll be in touch.</div>
+            <div class="footer-form-error" id="footer-error" role="status" aria-live="polite" hidden>Something went wrong.</div>
           </form>
         </div>
         <div class="footer-links">

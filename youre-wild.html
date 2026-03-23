@@ -52,15 +52,15 @@
   <main>
 
     <!-- ── 1. HERO ───────────────────────────────────────── -->
-    <section class="project-hero">
+    <section class="project-hero" aria-labelledby="yw-hero-heading">
       <div class="container">
-        <a href="index.html#projects" class="project-back">← All Projects</a>
+        <a href="index.html#projects" class="project-back"><span aria-hidden="true">←</span> <span>All Projects</span></a>
         <div class="project-hero-inner">
           <div class="project-hero-content">
             <div class="project-hero-meta">
               <span class="status-badge status-badge--live">Live — gathering feedback</span>
             </div>
-            <h1 class="project-hero-title animate-in" style="--delay:0.1s">You're-wild</h1>
+            <h1 class="project-hero-title animate-in" id="yw-hero-heading" style="--delay:0.1s">You're-wild</h1>
             <p class="project-hero-desc animate-in" style="--delay:0.25s">
               A gateway to rewilding yourself and the natural world around you.
             </p>
@@ -72,17 +72,17 @@
               <a href="#feedback" class="btn btn--ghost">Leave Feedback</a>
             </div>
           </div>
-          <div class="project-hero-visual animate-in" style="--delay:0.3s" aria-hidden="true">
+          <div class="project-hero-visual animate-in" style="--delay:0.3s; color: var(--gold);" aria-hidden="true">
             <div class="project-visual-placeholder">
               <svg viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="80" cy="80" r="60" stroke="#C8922A" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.4"/>
+                <circle cx="80" cy="80" r="60" stroke="currentColor" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.4"/>
                 <!-- Stylised leaf/raindrop -->
-                <path d="M80 30 C80 30 48 62 48 90 a32 32 0 0 0 64 0 C112 62 80 30 80 30z" stroke="#1E2B33" stroke-width="1.5" fill="none" opacity="0.6"/>
-                <path d="M80 52 C80 52 62 70 62 88 a18 18 0 0 0 36 0 C98 70 80 52 80 52z" fill="#C8922A" opacity="0.2"/>
+                <path d="M80 30 C80 30 48 62 48 90 a32 32 0 0 0 64 0 C112 62 80 30 80 30z" stroke="var(--charcoal)" stroke-width="1.5" fill="none" opacity="0.6"/>
+                <path d="M80 52 C80 52 62 70 62 88 a18 18 0 0 0 36 0 C98 70 80 52 80 52z" fill="currentColor" opacity="0.2"/>
                 <!-- small dots suggesting map pins -->
-                <circle cx="68" cy="84" r="3" fill="#C8922A" opacity="0.7"/>
-                <circle cx="88" cy="92" r="3" fill="#C8922A" opacity="0.7"/>
-                <circle cx="76" cy="100" r="3" fill="#C8922A" opacity="0.7"/>
+                <circle cx="68" cy="84" r="3" fill="currentColor" opacity="0.7"/>
+                <circle cx="88" cy="92" r="3" fill="currentColor" opacity="0.7"/>
+                <circle cx="76" cy="100" r="3" fill="currentColor" opacity="0.7"/>
               </svg>
             </div>
           </div>
@@ -91,9 +91,9 @@
     </section>
 
     <!-- ── 2. THE PROBLEM ────────────────────────────────── -->
-    <section class="project-section project-section--alt" id="problem">
+    <section class="project-section project-section--alt" id="problem" aria-labelledby="yw-problem-heading">
       <div class="container project-prose">
-        <h2 class="project-section-title reveal">The Problem</h2>
+        <h2 class="project-section-title reveal" id="yw-problem-heading">The Problem</h2>
         <p class="project-lead reveal">
           People want to connect with rewilding in everyday life — but how do you go about it?
         </p>
@@ -107,9 +107,9 @@
     </section>
 
     <!-- ── 3. HOW IT WORKS ───────────────────────────────── -->
-    <section class="project-section" id="how-it-works">
+    <section class="project-section" id="how-it-works" aria-labelledby="yw-hiw-heading">
       <div class="container">
-        <h2 class="project-section-title reveal">How It Works</h2>
+        <h2 class="project-section-title reveal" id="yw-hiw-heading">How It Works</h2>
         <div class="how-it-works-grid">
           <div class="how-step reveal">
             <span class="how-step-num">01</span>
@@ -136,14 +136,14 @@
     </section>
 
     <!-- ── 4. VIDEO ──────────────────────────────────────── -->
-    <section class="project-section project-section--alt" id="demo">
+    <section class="project-section project-section--alt" id="demo" aria-labelledby="yw-demo-heading">
       <div class="container">
-        <h2 class="project-section-title reveal">See It In Action</h2>
+        <h2 class="project-section-title reveal" id="yw-demo-heading">See It In Action</h2>
         <div class="video-placeholder reveal">
           <div class="video-placeholder-inner">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <circle cx="12" cy="12" r="10" stroke="#C8922A" stroke-width="1.5"/>
-              <path d="M10 8l6 4-6 4V8z" fill="#C8922A"/>
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" style="color: var(--gold);" aria-hidden="true">
+              <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M10 8l6 4-6 4V8z" fill="currentColor"/>
             </svg>
             <p class="video-placeholder-text">Demo video coming soon</p>
             <p class="video-placeholder-sub">In the meantime, try the live directory below</p>
@@ -153,9 +153,9 @@
     </section>
 
     <!-- ── 5. BUILD STAGES ───────────────────────────────── -->
-    <section class="project-section" id="stages">
+    <section class="project-section" id="stages" aria-labelledby="yw-stages-heading">
       <div class="container">
-        <h2 class="project-section-title reveal">Build Stages</h2>
+        <h2 class="project-section-title reveal" id="yw-stages-heading">Build Stages</h2>
         <div class="stages-trail reveal">
 
           <div class="stage stage--done">
@@ -199,9 +199,9 @@
     </section>
 
     <!-- ── 6. NEXT STEPS ─────────────────────────────────── -->
-    <section class="project-section project-section--alt" id="next-steps">
+    <section class="project-section project-section--alt" id="next-steps" aria-labelledby="yw-next-heading">
       <div class="container project-prose">
-        <h2 class="project-section-title reveal">What's Next</h2>
+        <h2 class="project-section-title reveal" id="yw-next-heading">What's Next</h2>
         <ul class="next-steps-list">
           <li class="reveal">Iterate on the prototype — improve filtering, site detail pages, and the 'bring it home' guidance section</li>
           <li class="reveal">Release to a select group for first real-world feedback on discovery and usability</li>
@@ -210,12 +210,12 @@
       </div>
     </section>
 
-    <!-- ── 8. FEEDBACK FORM ──────────────────────────────── -->
-    <section class="project-section project-feedback" id="feedback">
+    <!-- ── 7. FEEDBACK FORM ──────────────────────────────── -->
+    <section class="project-section project-feedback" id="feedback" aria-labelledby="yw-feedback-heading">
       <div class="container">
         <div class="feedback-inner">
           <div class="feedback-header">
-            <h2 class="project-section-title">Share Your Thoughts</h2>
+            <h2 class="project-section-title" id="yw-feedback-heading">Share Your Thoughts</h2>
             <p class="feedback-intro">Explored You're-wild? Tell me what you found, what you wanted, and what would make you come back.</p>
           </div>
 
@@ -223,14 +223,16 @@
 
             <!-- Star rating -->
             <div class="form-field">
-              <label class="form-label">Overall, how would you rate it?</label>
-              <div class="star-rating" role="group" aria-label="Star rating">
+              <fieldset>
+                <legend class="form-label">Overall, how would you rate it?</legend>
+                <div class="star-rating">
                 <input type="radio" name="rating" id="w1" value="1" /><label for="w1" title="1 star">★</label>
                 <input type="radio" name="rating" id="w2" value="2" /><label for="w2" title="2 stars">★</label>
                 <input type="radio" name="rating" id="w3" value="3" /><label for="w3" title="3 stars">★</label>
                 <input type="radio" name="rating" id="w4" value="4" /><label for="w4" title="4 stars">★</label>
                 <input type="radio" name="rating" id="w5" value="5" /><label for="w5" title="5 stars">★</label>
               </div>
+            </fieldset>
             </div>
 
             <!-- What worked -->
@@ -281,8 +283,8 @@
 
             <button type="submit" class="btn btn--primary">Send Feedback</button>
 
-            <p class="form-success" id="yw-success" aria-live="polite" hidden>Thanks — this really helps. I'll read every response.</p>
-            <p class="form-error" id="yw-error" aria-live="polite" hidden>Something went wrong. Please try again.</p>
+            <div class="form-success" id="yw-success" role="status" aria-live="polite" hidden>Thanks — this really helps. I'll read every response.</div>
+            <div class="form-error" id="yw-error" role="status" aria-live="polite" hidden>Something went wrong. Please try again.</div>
 
           </form>
         </div>
@@ -307,8 +309,8 @@
               <button type="submit" class="btn btn--primary btn--sm">Send</button>
             </div>
             <p class="footer-form-note">Just your email — I'll be in touch.</p>
-            <p class="footer-form-success" id="footer-success" aria-live="polite" hidden>Thanks — I'll be in touch.</p>
-            <p class="footer-form-error" id="footer-error" aria-live="polite" hidden>Something went wrong.</p>
+            <div class="footer-form-success" id="footer-success" role="status" aria-live="polite" hidden>Thanks — I'll be in touch.</div>
+            <div class="footer-form-error" id="footer-error" role="status" aria-live="polite" hidden>Something went wrong.</div>
           </form>
         </div>
         <div class="footer-links">
