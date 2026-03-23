@@ -24,8 +24,7 @@
     toggle.addEventListener('click', () => {
       const isOpen = navLinks.classList.toggle('is-open');
       toggle.setAttribute('aria-expanded', String(isOpen));
-      // Prevent body scroll when menu open
-      document.body.style.overflow = isOpen ? 'hidden' : '';
+      toggle.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
     });
 
     // Close menu when a nav link is clicked
@@ -33,7 +32,7 @@
       link.addEventListener('click', () => {
         navLinks.classList.remove('is-open');
         toggle.setAttribute('aria-expanded', 'false');
-        document.body.style.overflow = '';
+        toggle.setAttribute('aria-label', 'Open menu');
       });
     });
 
@@ -42,7 +41,7 @@
       if (e.key === 'Escape' && navLinks.classList.contains('is-open')) {
         navLinks.classList.remove('is-open');
         toggle.setAttribute('aria-expanded', 'false');
-        document.body.style.overflow = '';
+        toggle.setAttribute('aria-label', 'Open menu');
         toggle.focus();
       }
     });
@@ -74,7 +73,8 @@
   const navItems = document.querySelectorAll('.nav-link[href^="#"]');
 
   if (sections.length && navItems.length && 'IntersectionObserver' in window) {
-    const navHeight = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--nav-h')) || 72;
+    const rawNavH = getComputedStyle(document.documentElement).getPropertyValue('--nav-h').trim();
+    const navHeight = parseFloat(rawNavH) || 72;
 
     const sectionObserver = new IntersectionObserver(
       (entries) => {

@@ -80,6 +80,8 @@
       }
 
       // 2. hCaptcha check — only runs if content is present
+      // hCaptcha may be blocked (ad blockers, consent tools, corporate networks).
+      // If absent we allow submission through — Formspree provides secondary spam protection.
       if (typeof hcaptcha !== 'undefined' && !hcaptcha.getResponse()) {
         if (error) { error.hidden = false; error.textContent = 'Please complete the captcha to confirm you\'re human.'; }
         return;
