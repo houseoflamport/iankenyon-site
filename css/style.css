@@ -776,17 +776,18 @@ p { max-width: 68ch; }
     align-items: stretch;
     gap: 0;
     padding: var(--space-4) var(--space-6);
-    transform: translateY(-100%);
+    transform: none;
     opacity: 0;
     pointer-events: none;
-    transition: transform var(--dur-base) var(--ease), opacity var(--dur-base) var(--ease);
+    visibility: hidden;
+    transition: opacity var(--dur-base) var(--ease), visibility var(--dur-base) var(--ease);
     box-shadow: var(--shadow-md);
     overflow-y: auto;
   }
   .nav-links.is-open {
-    transform: translateY(0);
     opacity: 1;
     pointer-events: auto;
+    visibility: visible;
   }
   .nav-link {
     padding-block: var(--space-4);
