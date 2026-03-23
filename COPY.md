@@ -98,23 +98,52 @@ Status key: ✅ Agreed | ⚠️ Needs input | 🔒 Fixed (functional text, don't
 
 | Element | Text | Status |
 |---|---|---|
-| Page title (browser tab) | Slipstream | ⚠️ |
-| Hero one-liner | ⚠️ | ⚠️ |
-| The Problem — para 1 | ⚠️ | ⚠️ |
-| The Problem — para 2 | ⚠️ | ⚠️ |
-| The Problem — para 3 | ⚠️ | ⚠️ |
-| How It Works — intro | ⚠️ | ⚠️ |
-| How It Works — step 1 | ⚠️ | ⚠️ |
-| How It Works — step 2 | ⚠️ | ⚠️ |
-| How It Works — step 3 | ⚠️ | ⚠️ |
-| Build stage — current | ⚠️ | ⚠️ |
-| Build stage — next | ⚠️ | ⚠️ |
-| Build stage — horizon | ⚠️ | ⚠️ |
-| Next Steps | ⚠️ | ⚠️ |
-| Feedback form — heading | ⚠️ | ⚠️ |
-| Feedback form — question 1 | ⚠️ | ⚠️ |
-| Feedback form — question 2 | ⚠️ | ⚠️ |
-| Feedback form — question 3 | ⚠️ | ⚠️ |
+| Page title (browser tab) | Slipstream — Race your ghost | ✅ |
+| Hero one-liner | Every runner has a ghost. A previous best, a training partner, someone faster. Slipstream makes that ghost real, and puts it next to you on the run. | ✅ |
+| Hero sub-label | Status: Early build — March 2026 | ✅ |
+| The Problem — section title | The Problem | ✅ |
+| The Problem — lead | GPS watches record everything. Nobody uses the data for anything that matters mid-run. | ✅ |
+| The Problem — para 1 | Your Garmin knows your pace, your splits, every second of every run you've ever done. That data sits in an app and gets turned into charts you look at once. It should be doing something useful, like pulling someone else along on their next run. | ✅ |
+| The Problem — para 2 | Running apps give you segments and leaderboards. They're built around competition with strangers on fixed routes. Slipstream is built around one question: what if you could race the ghost of a specific run, by a specific person, anywhere you like? | ✅ |
+| The Problem — para 3 | The technology to do this has existed for years. Nobody has made it simple enough to actually use. That's the gap. | ✅ |
+| How It Works — section title | How It Works | ✅ |
+| How It Works — intro | Four steps. No account. Works on any phone. | ✅ |
+| How It Works — step 1 title | Export | ✅ |
+| How It Works — step 1 desc | Export a GPX file from Garmin Connect. Any run, any distance. Takes about 30 seconds. | ✅ |
+| How It Works — step 2 title | Import | ✅ |
+| How It Works — step 2 desc | Drop the file into Slipstream. It reads the run, pulls the pace data, and turns it into a ghost. | ✅ |
+| How It Works — step 3 title | Share | ✅ |
+| How It Works — step 3 desc | Share a link with anyone. They open it on their phone, hit start, and your ghost begins moving at your recorded pace. | ✅ |
+| How It Works — step 4 title | Race | ✅ |
+| How It Works — step 4 desc | Two dots. You and the ghost. A simple indicator shows whether you're ahead or behind. That's it. | ✅ |
+| Build stage — section title | Where It Is Now | ✅ |
+| Build stage 1 — label | Done | ✅ |
+| Build stage 1 — title | Core concept and design | ✅ |
+| Build stage 1 — desc | The ghost mechanic is defined. The run screen design is agreed: dark, minimal, built for daylight. A three-state colour system, orange behind, cyan locked in, green ahead, communicates everything without you having to think about it. | ✅ |
+| Build stage 2 — label | Now | ✅ |
+| Build stage 2 — title | GPX import and ghost playback | ✅ |
+| Build stage 2 — desc | Building the core journey: export from Garmin, import to Slipstream, share a link, race the ghost. The goal is a stranger completing that journey in under three minutes without help. | ✅ |
+| Build stage 3 — label | Next | ✅ |
+| Build stage 3 — title | Real tester runs | ✅ |
+| Build stage 3 — desc | Getting the app in front of actual Garmin runners. Watching where it breaks. Fixing the one journey before adding anything else. | ✅ |
+| Build stage 4 — label | Horizon | ✅ |
+| Build stage 4 — title | Live multiplayer | ✅ |
+| Build stage 4 — desc | The long-term goal: running with a real person in real time, anywhere in the world. A ghost of a live runner, not a recorded one. That's the north star. The MVP gets there first. | ✅ |
+| Next Steps — section title | What Happens Next | ✅ |
+| Next Steps — item 1 | Garmin runners who can export a GPX and are willing to try a rough build | ✅ |
+| Next Steps — item 2 | Feedback on whether the one journey, import, share, race, actually works without hand-holding | ✅ |
+| Next Steps — item 3 | Anyone who has wanted to run against a specific person or a past self and never found a simple way to do it | ✅ |
+| Feedback form — heading | Try it. Tell me what broke. | ✅ |
+| Feedback form — intro | This is an early build. The point of sharing it now is to find out what doesn't work before building more. Honest feedback is more useful than polite feedback. | ✅ |
+| Feedback form — q1 label | How did it feel overall? | ✅ |
+| Feedback form — q1 type | Star rating (1–5) | 🔒 |
+| Feedback form — q2 label | Where did it break, or what confused you? | ✅ |
+| Feedback form — q2 type | Textarea | 🔒 |
+| Feedback form — q3 label | Would the ghost mechanic actually change how you run? | ✅ |
+| Feedback form — q3 type | Radio: Yes, probably / Not sure / Probably not | 🔒 |
+| Feedback form — q4 label | Anything else worth knowing? | ✅ |
+| Feedback form — q4 type | Textarea (optional) | 🔒 |
+| Feedback form — submit button | Send feedback | ✅ |
 
 ---
 
@@ -122,23 +151,50 @@ Status key: ✅ Agreed | ⚠️ Needs input | 🔒 Fixed (functional text, don't
 
 | Element | Text | Status |
 |---|---|---|
-| Page title (browser tab) | You're-wild | ⚠️ |
-| Hero one-liner | ⚠️ | ⚠️ |
-| The Problem — para 1 | ⚠️ | ⚠️ |
-| The Problem — para 2 | ⚠️ | ⚠️ |
-| The Problem — para 3 | ⚠️ | ⚠️ |
-| How It Works — intro | ⚠️ | ⚠️ |
-| How It Works — step 1 | ⚠️ | ⚠️ |
-| How It Works — step 2 | ⚠️ | ⚠️ |
-| How It Works — step 3 | ⚠️ | ⚠️ |
-| Build stage — current | ⚠️ | ⚠️ |
-| Build stage — next | ⚠️ | ⚠️ |
-| Build stage — horizon | ⚠️ | ⚠️ |
-| Next Steps | ⚠️ | ⚠️ |
-| Feedback form — heading | ⚠️ | ⚠️ |
-| Feedback form — question 1 | ⚠️ | ⚠️ |
-| Feedback form — question 2 | ⚠️ | ⚠️ |
-| Feedback form — question 3 | ⚠️ | ⚠️ |
+| Page title (browser tab) | You're-wild — Discover rewilding near you | ✅ |
+| Hero one-liner | The UK has 60 verified rewilding sites. Most people have never heard of them, and have no idea one might be ten miles from where they live. You're-wild changes that. | ✅ |
+| Hero sub-label | Status: Live — March 2026 | ✅ |
+| The Problem — section title | The Problem | ✅ |
+| The Problem — lead | Rewilding is happening across the UK. It's invisible to almost everyone who isn't already involved. | ✅ |
+| The Problem — para 1 | There are projects bringing back beavers, curlews, native woodland. There are landowners who've handed over farmland to nature. There are corridors forming between sites, wildlife moving through landscapes it hasn't touched in decades. None of this is easy to find. | ✅ |
+| The Problem — para 2 | And for the person who wants to do something in their own garden, the gap between "I want to help" and "I know what to plant and where to buy it" is wide enough that most people don't cross it. Information exists, but it's scattered, technical, and not built around what someone actually needs to act. | ✅ |
+| The Problem — para 3 | You're-wild connects those two things: what's already happening near you, and what you can do about your own patch. | ✅ |
+| How It Works — section title | How It Works | ✅ |
+| How It Works — intro | Three things in one place. No account needed. | ✅ |
+| How It Works — step 1 title | Discover | ✅ |
+| How It Works — step 1 desc | Browse an interactive map of rewilding sites across the UK. Click any site to see what's there, what habitat it supports, and whether you can visit. | ✅ |
+| How It Works — step 2 title | Understand your local picture | ✅ |
+| How It Works — step 2 desc | Enter your postcode. See which sites are nearby, and whether you're close to a wildlife corridor, a connected chain of habitat that wildlife can actually move through. | ✅ |
+| How It Works — step 3 title | Get a planting plan | ✅ |
+| How It Works — step 3 desc | Tell it your garden size, type, and what you want to support. It returns a seasonal planting plan with native species matched to your location, and links to nurseries where you can buy them. | ✅ |
+| Build stage — section title | Where It Is Now | ✅ |
+| Build stage 1 — label | Done | ✅ |
+| Build stage 1 — title | Map live with 60 verified sites | ✅ |
+| Build stage 1 — desc | The interactive map is live. Sixty rewilding sites across the UK, manually verified. Each one has habitat type, notable species, and visiting information where it exists. | ✅ |
+| Build stage 2 — label | Done | ✅ |
+| Build stage 2 — title | Postcode search and corridor view | ✅ |
+| Build stage 2 — desc | Enter a postcode and the map centres on nearby sites. Where two or more are within range, a corridor line is drawn between them with a plain-language explanation of what that means for local wildlife. | ✅ |
+| Build stage 3 — label | Now | ✅ |
+| Build stage 3 — title | Planting plan and nursery links | ✅ |
+| Build stage 3 — desc | The personalised planting plan is in active development. Tell it your garden size, current habitat, and goals. It returns native plants by season with at least one verified nursery link per plant. | ✅ |
+| Build stage 4 — label | Next | ✅ |
+| Build stage 4 — title | Real user feedback and iteration | ✅ |
+| Build stage 4 — desc | Getting the full journey in front of people who care about rewilding, including contacts at Highlands Rewilding and Ecosulis, and finding out if it actually changes what they do next. | ✅ |
+| Next Steps — section title | What Happens Next | ✅ |
+| Next Steps — item 1 | People who have an interest in rewilding but haven't found a way in yet | ✅ |
+| Next Steps — item 2 | Homeowners who want to do something useful in their garden but don't know what | ✅ |
+| Next Steps — item 3 | Anyone connected to the rewilding sector who can tell me whether the framing and the data feel right | ✅ |
+| Feedback form — heading | Use it. Tell me what's missing. | ✅ |
+| Feedback form — intro | The site is live and the map works. The planting plan is coming. What I need now is honest feedback from people who care about this, not just people who are being polite. | ✅ |
+| Feedback form — q1 label | How useful did it feel overall? | ✅ |
+| Feedback form — q1 type | Star rating (1–5) | 🔒 |
+| Feedback form — q2 label | Did it change how you think about your own space or a local site? | ✅ |
+| Feedback form — q2 type | Radio: Yes / Partly / Not really | 🔒 |
+| Feedback form — q3 label | What's missing, or what would make this actually useful to you? | ✅ |
+| Feedback form — q3 type | Textarea | 🔒 |
+| Feedback form — q4 label | Anything else? | ✅ |
+| Feedback form — q4 type | Textarea (optional) | 🔒 |
+| Feedback form — submit button | Send feedback | ✅ |
 
 ---
 
