@@ -1,7 +1,7 @@
 # COPY.md — Ian Kenyon / lampara.world
 ## All website text in one place for review
 
-Last updated: March 2026
+Last updated: March 2026 (copy audit + em dash removal pass)
 Status key: ✅ Agreed | ⚠️ Needs input | 🔒 Fixed (functional text, don't change)
 
 ---
@@ -28,7 +28,7 @@ Status key: ✅ Agreed | ⚠️ Needs input | 🔒 Fixed (functional text, don't
 |---|---|---|
 | Label (small caps above name) | Product Leader · 0 to scale · Brighton | ✅ |
 | Name | Ian Kenyon | ✅ |
-| Statement line 1 | I build real products from real ideas. | ✅ |
+| Statement line 1 | I've spent 15 years building products for others. Now I'm doing it for myself. | ✅ |
 | Statement line 2 (italic gold) | Concept to working prototype, faster than was ever possible before. | ✅ |
 | CTA button 1 | See the Projects | ✅ |
 | CTA button 2 | Get Involved | ✅ |
@@ -41,8 +41,8 @@ Status key: ✅ Agreed | ⚠️ Needs input | 🔒 Fixed (functional text, don't
 | Element | Text | Status |
 |---|---|---|
 | Section label | About | ✅ |
-| Lead paragraph | I've spent 15 years building products in industries where getting it wrong has real consequences. Energy markets, IoT, grid infrastructure. That background shapes how I think about problems. These projects are what happens when I stop waiting for someone else to greenlight the ideas. | ✅ |
-| Body paragraph | Each one is live, tested, and moving forward. New tools mean the early stage is supercharged, a working prototype in a day, not a quarter. That frees up the real work: getting in front of users and finding out if the idea holds. | ✅ |
+| Lead paragraph | I've spent 15 years building products in industries where getting it wrong has real consequences. Energy markets, IoT, grid infrastructure. That background shapes how I think about problems. These projects are what happens when I have the freedom to explore for myself. | ✅ |
+| Body paragraph | I'll document what works and what doesn't as each one gets tested and moves forward. New tools mean the early stage is supercharged, a working prototype in a day, not a quarter. That frees up the real work: getting in front of users and finding out if the idea holds. | ✅ |
 | Side quote | "Ideas I've had for years. Finally able to build them in days." | ✅ |
 | LinkedIn link text | LinkedIn | ✅ |
 | GitHub link text | GitHub | ✅ |
@@ -130,9 +130,9 @@ Status key: ✅ Agreed | ⚠️ Needs input | 🔒 Fixed (functional text, don't
 | Build stage 4 — title | Live multiplayer | ✅ |
 | Build stage 4 — desc | The long-term goal: running with a real person in real time, anywhere in the world. A ghost of a live runner, not a recorded one. That's the north star. The MVP gets there first. | ✅ |
 | Next Steps — section title | What Happens Next | ✅ |
-| Next Steps — item 1 | Garmin runners who can export a GPX and are willing to try a rough build | ✅ |
-| Next Steps — item 2 | Feedback on whether the one journey, import, share, race, actually works without hand-holding | ✅ |
-| Next Steps — item 3 | Anyone who has wanted to run against a specific person or a past self and never found a simple way to do it | ✅ |
+| Next Steps — item 1 | Iterate on the prototype based on initial self-testing | ✅ |
+| Next Steps — item 2 | Release to a small select group of runners for first real-world feedback | ✅ |
+| Next Steps — item 3 | Simplify the social layer, how runners share routes and challenge each other across distances | ✅ |
 | Feedback form — heading | Try it. Tell me what broke. | ✅ |
 | Feedback form — intro | This is an early build. The point of sharing it now is to find out what doesn't work before building more. Honest feedback is more useful than polite feedback. | ✅ |
 | Feedback form — q1 label | How did it feel overall? | ✅ |
@@ -181,9 +181,9 @@ Status key: ✅ Agreed | ⚠️ Needs input | 🔒 Fixed (functional text, don't
 | Build stage 4 — title | Real user feedback and iteration | ✅ |
 | Build stage 4 — desc | Getting the full journey in front of people who care about rewilding, including contacts at Highlands Rewilding and Ecosulis, and finding out if it actually changes what they do next. | ✅ |
 | Next Steps — section title | What Happens Next | ✅ |
-| Next Steps — item 1 | People who have an interest in rewilding but haven't found a way in yet | ✅ |
-| Next Steps — item 2 | Homeowners who want to do something useful in their garden but don't know what | ✅ |
-| Next Steps — item 3 | Anyone connected to the rewilding sector who can tell me whether the framing and the data feel right | ✅ |
+| Next Steps — item 1 | Iterate on the prototype, improve filtering, site detail pages, and the 'bring it home' guidance section | ✅ |
+| Next Steps — item 2 | Release to a select group for first real-world feedback on discovery and usability | ✅ |
+| Next Steps — item 3 | Explore partnerships with organisations to grow the verified dataset | ✅ |
 | Feedback form — heading | Use it. Tell me what's missing. | ✅ |
 | Feedback form — intro | The site is live and the map works. The planting plan is coming. What I need now is honest feedback from people who care about this, not just people who are being polite. | ✅ |
 | Feedback form — q1 label | How useful did it feel overall? | ✅ |
