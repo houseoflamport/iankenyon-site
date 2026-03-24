@@ -57,7 +57,7 @@ Status key: ✅ Agreed | ⚠️ Needs input | 🔒 Fixed (functional text, don't
 | Section intro | Real products, real problems, actively in development. Click through to see where each one is and why it exists. | ✅ |
 | Slipstream — status badge | Active development | ✅ |
 | Slipstream — title | Slipstream | ✅ |
-| Slipstream — one-liner | Race a ghost of your past self, or someone else's. Built around the one thing GPS data makes possible but nobody's done simply. | ✅ |
+| Slipstream — one-liner | Race a ghost of any run, by anyone. Upload a GPX, share a link, and find out if you're faster. | ✅ |
 | Slipstream — button 1 | View Project | ✅ |
 | Slipstream — button 2 | Leave Feedback | ✅ |
 | You're-wild — status badge | Live, gathering feedback | ✅ |
@@ -99,23 +99,22 @@ Status key: ✅ Agreed | ⚠️ Needs input | 🔒 Fixed (functional text, don't
 | Element | Text | Status |
 |---|---|---|
 | Page title (browser tab) | Slipstream — Race your ghost | ✅ |
-| Hero one-liner | Every runner has a ghost. A previous best, a training partner, someone faster. Slipstream makes that ghost real, and puts it next to you on the run. | ✅ |
+| Hero one-liner | Race a ghost of any run, by anyone. Upload a GPX, share a link, and find out if you're faster. | ✅ |
 | Hero sub-label | Status: Early build — March 2026 | ✅ |
 | The Problem — section title | The Problem | ✅ |
-| The Problem — lead | GPS watches record everything. Nobody uses the data for anything that matters mid-run. | ✅ |
-| The Problem — para 1 | Your Garmin knows your pace, your splits, every second of every run you've ever done. That data sits in an app and gets turned into charts you look at once. It should be doing something useful, like pulling someone else along on their next run. | ✅ |
-| The Problem — para 2 | Running apps give you segments and leaderboards. They're built around competition with strangers on fixed routes. Slipstream is built around one question: what if you could race the ghost of a specific run, by a specific person, anywhere you like? | ✅ |
-| The Problem — para 3 | The technology to do this has existed for years. Nobody has made it simple enough to actually use. That's the gap. | ✅ |
+| The Problem — lead | Runners want something to chase. Training alone means there's nothing to race against. | ✅ |
+| The Problem — para 1 | Whether you're a runner, cyclist, or swimmer, your best performances happen when there's something to chase. A training partner, a rival, a record. But finding someone to compete with at the right time, at the right level? That's rarely possible when you're heading out alone. | ✅ |
+| The Problem — para 2 | Slipstream solves this. Upload a GPX from any Garmin run, share a link, and race the ghost of that run on your next effort. The competition is always there, whenever you are. | ✅ |
 | How It Works — section title | How It Works | ✅ |
 | How It Works — intro | Four steps. No account. Works on any phone. | ✅ |
-| How It Works — step 1 title | Export | ✅ |
-| How It Works — step 1 desc | Export a GPX file from Garmin Connect. Any run, any distance. Takes about 30 seconds. | ✅ |
-| How It Works — step 2 title | Import | ✅ |
-| How It Works — step 2 desc | Drop the file into Slipstream. It reads the run, pulls the pace data, and turns it into a ghost. | ✅ |
-| How It Works — step 3 title | Share | ✅ |
-| How It Works — step 3 desc | Share a link with anyone. They open it on their phone, hit start, and your ghost begins moving at your recorded pace. | ✅ |
-| How It Works — step 4 title | Race | ✅ |
-| How It Works — step 4 desc | Two dots. You and the ghost. A simple indicator shows whether you're ahead or behind. That's it. | ✅ |
+| How It Works — step 1 title | Export your run | ✅ |
+| How It Works — step 1 desc | Download a GPX file from Garmin Connect on your desktop. Any run, any distance. | ✅ |
+| How It Works — step 2 title | Upload to Slipstream | ✅ |
+| How It Works — step 2 desc | Open Slipstream on your phone and upload the file. It pulls the pace data and creates a ghost. | ✅ |
+| How It Works — step 3 title | Share the link | ✅ |
+| How It Works — step 3 desc | Slipstream gives you a URL. Send it to yourself or anyone else via iMessage, WhatsApp, or wherever. | ✅ |
+| How It Works — step 4 title | Race it | ✅ |
+| How It Works — step 4 desc | Open the link, hit start, and run. One indicator tells you whether you're ahead of the ghost or behind. That's it. | ✅ |
 | Build stage — section title | Where It Is Now | ✅ |
 | Build stage 1 — label | Done | ✅ |
 | Build stage 1 — title | Core concept and design | ✅ |
