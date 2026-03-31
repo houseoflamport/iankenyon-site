@@ -1,7 +1,7 @@
-# COPY.md — Ian Kenyon / lampara.world
+# COPY.md — Ian Kenyon / lampara.dev
 ## All website text in one place for review
 
-Last updated: March 2026 (copy audit + em dash removal pass)
+Last updated: March 2026 (v1.3 reframe — projects front and centre, hero rewritten, about section replaced with who section, Mixcloud added)
 Status key: ✅ Agreed | ⚠️ Needs input | 🔒 Fixed (functional text, don't change)
 
 ---
@@ -15,8 +15,8 @@ Status key: ✅ Agreed | ⚠️ Needs input | 🔒 Fixed (functional text, don't
 | Element | Current text | Status |
 |---|---|---|
 | Logo name | Ian Kenyon | ✅ |
-| Nav link 1 | About | ✅ |
-| Nav link 2 | Projects | ✅ |
+| Nav link 1 | Projects | ✅ |
+| Nav link 2 | About | ✅ |
 | Nav link 3 | Get Involved | ✅ |
 | Nav CTA | Say Hello | ✅ |
 
@@ -26,26 +26,18 @@ Status key: ✅ Agreed | ⚠️ Needs input | 🔒 Fixed (functional text, don't
 
 | Element | Text | Status |
 |---|---|---|
-| Label (small caps above name) | Product Leader · 0 to scale · Brighton | ✅ |
-| Name | Ian Kenyon | ✅ |
-| Statement line 1 | I've spent 15 years building products for others. Now I'm doing it for myself. | ✅ |
-| Statement line 2 (italic gold) | Concept to working prototype, faster than was ever possible before. | ✅ |
+| Site label (small caps) | lampara.dev | ✅ |
+| Heading line 1 | Ideas, | ✅ |
+| Heading line 2 (italic gold) | built. | ✅ |
+| Para 1 | A few projects, in different states of progress. Some will go further, others won't. All of it is documented honestly. | ✅ |
+| Para 2 | Fifteen years in product. New tools mean the early stage takes days, not quarters, and that changes what's worth attempting. | ✅ |
 | CTA button 1 | See the Projects | ✅ |
 | CTA button 2 | Get Involved | ✅ |
+| Process strip — step 1 | Build a prototype | ✅ |
+| Process strip — step 2 | Get it in front of people | ✅ |
+| Process strip — step 3 | Synthesise feedback | ✅ |
+| Process strip — step 4 | Kill or take forward | ✅ |
 | Scroll hint | Scroll | 🔒 |
-
----
-
-### ABOUT
-
-| Element | Text | Status |
-|---|---|---|
-| Section label | About | ✅ |
-| Lead paragraph | I've spent 15 years building products in industries where getting it wrong has real consequences. Energy markets, IoT, grid infrastructure. That background shapes how I think about problems. These projects are what happens when I have the freedom to explore for myself. | ✅ |
-| Body paragraph | I'll document what works and what doesn't as each one gets tested and moves forward. New tools mean the early stage is supercharged, a working prototype in a day, not a quarter. That frees up the real work: getting in front of users and finding out if the idea holds. | ✅ |
-| Side quote | "Ideas I've had for years. Finally able to build them in days." | ✅ |
-| LinkedIn link text | LinkedIn | ✅ |
-| GitHub link text | GitHub | ✅ |
 
 ---
 
@@ -60,11 +52,27 @@ Status key: ✅ Agreed | ⚠️ Needs input | 🔒 Fixed (functional text, don't
 | Slipstream — one-liner | Race a ghost of any run, by anyone. Upload a GPX, share a link, and find out if you're faster. | ✅ |
 | Slipstream — button 1 | View Project | ✅ |
 | Slipstream — button 2 | Leave Feedback | ✅ |
-| You're-wild — status badge | Live, gathering feedback | ✅ |
+| You're-wild — status badge | Live — gathering feedback | ✅ |
 | You're-wild — title | You're-wild | ✅ |
 | You're-wild — one-liner | Discover rewilding sites across the UK and find out how to bring nature back to your own local space. | ✅ |
 | You're-wild — button 1 | View Project | ✅ |
 | You're-wild — button 2 | Leave Feedback | ✅ |
+
+---
+
+### WHO'S BEHIND THIS
+
+| Element | Text | Status |
+|---|---|---|
+| Section label | The person building this | ✅ |
+| Heading | Ian Kenyon | ✅ |
+| Para 1 | Brighton-based with fifteen years in product, most of it in industries where getting things wrong has real consequences. Passion for the environment, food, and music. | ✅ |
+| Para 2 | What I build, what I learn, what I decide to stop. I'm interested in whether other people find it useful, and I'm open to people getting involved. | ✅ |
+| Link 1 | More about me → | ✅ |
+| Link 2 | DJ mixes on Mixcloud ↗ | ✅ |
+| Link 3 | LinkedIn ↗ | ✅ |
+| Photo | assets/images/ian.jpg | 🔒 |
+| Photo alt text | Ian in Brighton | ✅ |
 
 ---
 
@@ -90,7 +98,25 @@ Status key: ✅ Agreed | ⚠️ Needs input | 🔒 Fixed (functional text, don't
 | Email placeholder | your@email.com | 🔒 |
 | Submit button | Send | ✅ |
 | Form note | Just your email, I'll be in touch. | ✅ |
+| Footer link 1 | LinkedIn | ✅ |
+| Footer link 2 | Mixcloud | ✅ |
+| Footer link 3 | GitHub | ✅ |
 | Copyright | © 2026 Ian Kenyon | ✅ |
+
+---
+
+## ABOUT PAGE (about.html)
+
+| Element | Text | Status |
+|---|---|---|
+| Page title (browser tab) | About — Ian Kenyon | ⚠️ |
+| Photo | Beach photo with partner (Menorca) | ⚠️ Needs wiring in |
+| Intro | ⚠️ Needs writing — see tone notes below |
+| Mixcloud link | ⚠️ Needs real URL |
+| LinkedIn link | https://www.linkedin.com/in/ian-j-kenyon/ | ✅ |
+| GitHub link | https://github.com/houseoflamport | ✅ |
+
+*Tone notes for about page: informal, specific. Naturalised Britonian. Brighton. Runs, grows things, bakes, DJs. Twenty years of DJing across house and trip hop. The energy/IoT/grid background can live here in more detail. No credentials list, no career summary. Reward the curiosity of someone who's already looked at the projects and wants to know who's behind them.*
 
 ---
 
