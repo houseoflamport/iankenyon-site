@@ -128,7 +128,8 @@ Status key: ✅ Agreed | ⚠️ Needs input | 🔒 Fixed (functional text, don't
 | Element | Text | Status |
 |---|---|---|
 | Heading | Ian Kenyon | ✅ |
-| Intro para | Based in Brighton. Fifteen years in product, much of it in energy, IoT, and built environment, industries where a bad call doesn't just miss a KPI, it affects how people heat their homes or how much a grid operator makes in a trading day. It changes how you think about problems. | ✅ |
+| Intro para 1 | Based in Brighton. Fifteen years in product, much of it in energy, IoT, and built environment, industries where a bad call doesn't just miss a KPI, it affects how people heat their homes or how much a grid operator makes in a trading day. It changes how you think about problems. | ✅ |
+| Intro para 2 | The projects on this site are early stage. The experience behind them isn't. Lampara.dev is where I build the ideas that have been sitting in my head for years, using tools that make it possible to move fast without a team. It sits alongside fifteen years of shipping at scale, in regulated industries, with real commercial consequences. | ✅ |
 | Photo | assets/images/ian-about.jpg | 🔒 |
 | Photo alt text | Ian Kenyon and family in Portugal | ✅ |
 
