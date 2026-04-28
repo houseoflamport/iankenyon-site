@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="About Ian Kenyon — fifteen years in product, energy, IoT, and built environment. Brighton-based. Building lampara.dev." />
+  <title>About — Ian Kenyon</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/logo/ik-logo.svg" />
+
+  <!-- Theme colour -->
+  <meta name="theme-color" content="#1E2B33" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://lampara.dev/about.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://lampara.dev/about.html" />
+  <meta property="og:title"       content="About — Ian Kenyon" />
+  <meta property="og:description" content="Fifteen years in product, much of it in energy, IoT, and built environment. Brighton-based." />
+  <meta property="og:image"       content="https://lampara.dev/assets/og/og-default.png" />
+  <meta name="twitter:card"       content="summary_large_image" />
+
+  <style>
+    /* ── About hero ─────────────────────────────────────── */
+    .about-hero {
+      padding-top: calc(var(--nav-h) + var(--space-16));
+      padding-bottom: var(--space-16);
+      background: var(--cream);
+      border-bottom: 1px solid var(--cream-dark);
+    }
+
+    .about-hero-inner {
+      display: grid;
+      grid-template-columns: 1fr 340px;
+      gap: var(--space-16);
+      align-items: start;
+    }
+
+    .about-back {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-2);
+      font-size: var(--text-sm);
+      font-weight: 500;
+      color: var(--muted);
+      margin-bottom: var(--space-8);
+      transition: color var(--dur-fast) var(--ease);
+    }
+    .about-back:hover { color: var(--gold); }
+
+    .about-label {
+      font-family: var(--font-body);
+      font-size: var(--text-xs);
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: var(--space-4);
+    }
+
+    .about-heading {
+      font-size: clamp(var(--text-4xl), 6vw, var(--text-6xl));
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.05;
+      margin-bottom: var(--space-6);
+      color: var(--charcoal);
+    }
+
+    .about-intro {
+      font-family: var(--font-display);
+      font-size: clamp(var(--text-lg), 2vw, var(--text-xl));
+      color: var(--muted);
+      line-height: 1.7;
+      max-width: 52ch;
+    }
+
+    /* Photo */
+    .about-photo-frame {
+      width: 100%;
+      aspect-ratio: 4/5;
+      background: var(--cream-dark);
+      border-radius: 6px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .about-photo-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 10%;
+    }
+
+    .about-photo-accent {
+      position: absolute;
+      bottom: -12px;
+      right: -12px;
+      width: 80px;
+      height: 80px;
+      background: var(--gold);
+      border-radius: 50%;
+      opacity: 0.12;
+      pointer-events: none;
+    }
+
+    /* ── About sections ─────────────────────────────────── */
+    .about-section {
+      padding-block: var(--space-20);
+    }
+
+    .about-section--alt {
+      background: var(--white);
+      border-top: 1px solid var(--cream-dark);
+      border-bottom: 1px solid var(--cream-dark);
+    }
+
+    .about-section-label {
+      font-family: var(--font-body);
+      font-size: var(--text-xs);
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: var(--space-6);
+    }
+
+    .about-section-title {
+      font-family: var(--font-display);
+      font-size: var(--text-3xl);
+      font-weight: 700;
+      color: var(--charcoal);
+      margin-bottom: var(--space-8);
+      letter-spacing: -0.02em;
+    }
+
+    .about-prose {
+      max-width: 680px;
+    }
+
+    .about-prose p {
+      font-size: var(--text-base);
+      color: var(--muted);
+      line-height: 1.85;
+      margin-bottom: var(--space-5);
+    }
+
+    .about-prose p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* Proof points */
+    .proof-points {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-6);
+      margin-top: var(--space-10);
+    }
+
+    .proof-point {
+      padding: var(--space-6);
+      background: var(--cream);
+      border-radius: 6px;
+      border-left: 3px solid var(--gold);
+    }
+
+    .proof-point-company {
+      font-size: var(--text-xs);
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: var(--space-2);
+    }
+
+    .proof-point-text {
+      font-size: var(--text-base);
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    .proof-point-text strong {
+      color: var(--charcoal);
+      font-weight: 600;
+    }
+
+    /* CV link section */
+    .about-cv {
+      margin-top: var(--space-10);
+      padding-top: var(--space-8);
+      border-top: 1px solid var(--cream-dark);
+      display: flex;
+      align-items: center;
+      gap: var(--space-6);
+      flex-wrap: wrap;
+    }
+
+    .about-cv-text {
+      font-size: var(--text-sm);
+      color: var(--muted);
+    }
+
+    /* Links row */
+    .about-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-4);
+      margin-top: var(--space-10);
+    }
+
+    .about-link {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-2);
+      font-size: var(--text-sm);
+      font-weight: 600;
+      color: var(--charcoal);
+      border-bottom: 1.5px solid var(--cream-dark);
+      padding-bottom: 2px;
+      transition: color var(--dur-fast) var(--ease), border-color var(--dur-fast) var(--ease);
+    }
+    .about-link:hover { color: var(--gold); border-color: var(--gold); }
+
+    /* Outside work grid */
+    .outside-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: var(--space-4);
+      margin-top: var(--space-8);
+    }
+
+    .outside-item {
+      padding: var(--space-5);
+      background: var(--white);
+      border-radius: 6px;
+      border: 1px solid var(--cream-dark);
+    }
+
+    .outside-item-label {
+      font-size: var(--text-xs);
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted-light);
+      margin-bottom: var(--space-2);
+    }
+
+    .outside-item-text {
+      font-size: var(--text-sm);
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    /* ── Responsive ─────────────────────────────────────── */
+    @media (max-width: 900px) {
+      .about-hero-inner {
+        grid-template-columns: 1fr;
+      }
+      .about-photo {
+        order: -1;
+        max-width: 280px;
+      }
+      .outside-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .about-hero {
+        padding-top: calc(var(--nav-h) + var(--space-8));
+      }
+      .about-cv {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════════ -->
+  <header class="site-header" id="site-header">
+    <nav class="nav-inner" aria-label="Main navigation">
+      <a href="index.html" class="nav-logo" aria-label="lampara.dev — home">
+        <img src="assets/logo/ik-logo.svg" alt="IK logo" class="logo-img" />
+        <span class="nav-logo-text">Ian Kenyon</span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+        <li><a href="about.html" class="nav-link is-active">About</a></li>
+        <li><a href="index.html#get-involved" class="nav-link">Get Involved</a></li>
+        <li><a href="index.html#contact" class="nav-link nav-link--cta">Say Hello</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- ═══════════════════════════════════════════
+         HERO
+    ═══════════════════════════════════════════ -->
+    <section class="about-hero" aria-labelledby="about-heading">
+      <div class="container">
+        <a href="index.html" class="about-back animate-in" style="--delay: 0.1s">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M13 8H3M7 4L3 8l4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Back to projects
+        </a>
+
+        <div class="about-hero-inner">
+          <div class="about-text">
+            <p class="about-label animate-in" style="--delay: 0.15s">About</p>
+            <h1 class="about-heading animate-in" id="about-heading" style="--delay: 0.2s">Ian Kenyon</h1>
+            <p class="about-intro animate-in" style="--delay: 0.35s">
+              Based in Brighton. Fifteen years in product, much of it in energy, IoT, and built environment — industries where a bad call doesn't just miss a KPI, it affects how people heat their homes or how much a grid operator makes in a trading day. It changes how you think about problems.
+            </p>
+          </div>
+
+          <div class="about-photo reveal">
+            <div class="about-photo-frame">
+              <img src="assets/images/ian.jpg" alt="Ian Kenyon in Brighton" />
+            </div>
+            <div class="about-photo-accent" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         THE WORK
+    ═══════════════════════════════════════════ -->
+    <section class="about-section about-section--alt" aria-labelledby="work-heading">
+      <div class="container">
+        <p class="about-section-label">The work</p>
+        <h2 class="about-section-title" id="work-heading">The common thread</h2>
+
+        <div class="about-prose reveal">
+          <p>
+            Understand the real problem, not the stated one. Build across the organisation and ship in volume solving something customers actually care about.
+          </p>
+          <p>
+            That sounds simple. In practice it means spending time on site before writing a requirements document, running trading desks through a regulatory process before the product is finished, and staging a GTM to learn from real usage before committing to a full rollout.
+          </p>
+        </div>
+
+        <div class="proof-points reveal">
+
+          <div class="proof-point">
+            <p class="proof-point-company">Limejump</p>
+            <p class="proof-point-text">
+              Led the product that enabled <strong>frequency response trading at grid scale</strong>. Six months ahead of schedule. Over £300k a week of revenue running through it, with board sign-off including Shell.
+            </p>
+          </div>
+
+          <div class="proof-point">
+            <p class="proof-point-company">Paxton</p>
+            <p class="proof-point-text">
+              Took a next-generation access control platform from <strong>zero to £2m ARR</strong>. That started with two weeks observing installers on site before touching a requirements document.
+            </p>
+          </div>
+
+          <div class="proof-point">
+            <p class="proof-point-company">SNRG</p>
+            <p class="proof-point-text">
+              Rebuilt the customer app around <strong>meter-level data and a deep understanding of the customers</strong> that used it. Staged the GTM to solve problems quickly and enhance the solution over time. Real usage before a full rollout.
+            </p>
+          </div>
+
+        </div>
+
+        <div class="about-cv reveal">
+          <p class="about-cv-text">Want the full picture?</p>
+          <a href="assets/cv/ian-kenyon-cv.pdf" class="btn btn--primary btn--sm" target="_blank" rel="noopener noreferrer">
+            Download CV
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true" style="margin-left: 4px">
+              <path d="M8 3v7M4 7l4 4 4-4M3 13h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         WHY THE SIDE PROJECTS
+    ═══════════════════════════════════════════ -->
+    <section class="about-section" aria-labelledby="projects-heading">
+      <div class="container">
+        <p class="about-section-label">Why the side projects</p>
+        <h2 class="about-section-title" id="projects-heading">Always curious</h2>
+
+        <div class="about-prose reveal">
+          <p>
+            Between roles I'm always curious, so I'm now trying those projects for real. Not to fill time, to stay sharp and to find out if ideas that have been sitting in my head for years are actually worth something.
+          </p>
+          <p>
+            Yourewild started as a competition entry in 2019. I came second. I sat on it for five years and now I'm actually building it. Slipstream came from running alone and wanting something to race against.
+          </p>
+          <p>
+            Both are on lampara.dev, documented so you can see the thought process in whatever state they're in. The decisions, the dead ends, what gets killed and why.
+          </p>
+        </div>
+
+        <div class="about-links reveal">
+          <a href="youre-wild.html" class="about-link">
+            View Yourewild
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+              <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="slipstream.html" class="about-link">
+            View Slipstream
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+              <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         OUTSIDE WORK
+    ═══════════════════════════════════════════ -->
+    <section class="about-section about-section--alt" aria-labelledby="outside-heading">
+      <div class="container">
+        <p class="about-section-label">Outside work</p>
+        <h2 class="about-section-title" id="outside-heading">Brighton since 2015</h2>
+
+        <div class="about-prose reveal">
+          <p>Not planning to leave. Two teenagers, a partner who teaches yoga, a network of good people.</p>
+        </div>
+
+        <div class="outside-grid reveal">
+
+          <div class="outside-item">
+            <p class="outside-item-label">Music</p>
+            <p class="outside-item-text">DJing for over twenty years. Mostly house and trip hop. Active on Mixcloud.</p>
+          </div>
+
+          <div class="outside-item">
+            <p class="outside-item-label">Movement</p>
+            <p class="outside-item-text">Still running. Occasionally swimming. The South Downs are right there.</p>
+          </div>
+
+          <div class="outside-item">
+            <p class="outside-item-label">Growing things</p>
+            <p class="outside-item-text">A greenhouse that takes more attention than it should. Always growing something.</p>
+          </div>
+
+          <div class="outside-item">
+            <p class="outside-item-label">Brighton</p>
+            <p class="outside-item-text">Genuinely a great place to be. The sea helps.</p>
+          </div>
+
+        </div>
+
+        <div class="about-links reveal">
+          <a href="https://www.mixcloud.com/Ianken/" class="about-link" target="_blank" rel="noopener noreferrer" aria-label="DJ mixes on Mixcloud (opens in new tab)">
+            Mixes on Mixcloud
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+              <path d="M10 3h3v3M13 3l-6 6M7 4H4a1 1 0 00-1 1v7a1 1 0 001 1h7a1 1 0 001-1V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/ian-j-kenyon/" class="about-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile (opens in new tab)">
+            LinkedIn
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+              <path d="M10 3h3v3M13 3l-6 6M7 4H4a1 1 0 00-1 1v7a1 1 0 001 1h7a1 1 0 001-1V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="https://github.com/houseoflamport" class="about-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub (opens in new tab)">
+            GitHub
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+              <path d="M10 3h3v3M13 3l-6 6M7 4H4a1 1 0 00-1 1v7a1 1 0 001 1h7a1 1 0 001-1V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="assets/logo/ik-logo.svg" alt="IK logo" class="footer-logo" />
+          <p class="footer-hol">House of Lamport</p>
+        </div>
+
+        <div class="footer-contact">
+          <p class="footer-contact-label">Want to get in touch?</p>
+          <form class="footer-form" id="footer-contact-form" action="https://formspree.io/f/xdawyerw" method="POST">
+            <div class="footer-form-row">
+              <input
+                type="email"
+                name="email"
+                id="footer-email"
+                class="footer-input"
+                placeholder="your@email.com"
+                required
+                aria-label="Your email address"
+              />
+              <button type="submit" class="btn btn--primary btn--sm">Send</button>
+            </div>
+            <p class="footer-form-note">Just your email, I'll be in touch.</p>
+            <div class="footer-form-success" id="footer-success" role="status" aria-live="polite" hidden>Thanks, I'll be in touch.</div>
+            <div class="footer-form-error" id="footer-error" role="status" aria-live="polite" hidden>Something went wrong. Try emailing me directly.</div>
+          </form>
+        </div>
+
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/ian-j-kenyon/" class="footer-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://www.mixcloud.com/Ianken/" class="footer-link" target="_blank" rel="noopener noreferrer">Mixcloud</a>
+          <a href="https://github.com/houseoflamport" class="footer-link" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+
+      <div class="footer-base">
+        <p>© 2026 Ian Kenyon</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/forms.js"></script>
+</body>
+</html>
