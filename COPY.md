@@ -1,7 +1,7 @@
 # COPY.md — Ian Kenyon / lampara.dev
 ## All website text in one place for review
 
-Last updated: March 2026 (v1.3 reframe — projects front and centre, hero rewritten, about section replaced with who section, Mixcloud added)
+Last updated: April 2026 (v1.5 — about page built and live, Yourewild updated with future directions and business model, Slipstream updated with honest pivot note, CV linked, family photo added)
 Status key: ✅ Agreed | ⚠️ Needs input | 🔒 Fixed (functional text, don't change)
 
 ---
@@ -72,7 +72,8 @@ Status key: ✅ Agreed | ⚠️ Needs input | 🔒 Fixed (functional text, don't
 | Link 2 | DJ mixes on Mixcloud ↗ | ✅ |
 | Link 3 | LinkedIn ↗ | ✅ |
 | Photo | assets/images/ian.jpg | 🔒 |
-| Photo alt text | Ian in Brighton | ✅ |
+| Photo alt text | Ian Kenyon in Brighton | ✅ |
+| Mixcloud URL | https://www.mixcloud.com/Ianken/ | ✅ |
 
 ---
 
@@ -107,16 +108,84 @@ Status key: ✅ Agreed | ⚠️ Needs input | 🔒 Fixed (functional text, don't
 
 ## ABOUT PAGE (about.html)
 
+*Built and live as of April 2026. Photo: family Portugal shot (assets/images/ian-about.jpg). CV linked from work section (assets/cv/ian-kenyon-cv.pdf).*
+
+---
+
+### NAV / META
+
 | Element | Text | Status |
 |---|---|---|
-| Page title (browser tab) | About — Ian Kenyon | ⚠️ |
-| Photo | Beach photo with partner (Menorca) | ⚠️ Needs wiring in |
-| Intro | ⚠️ Needs writing — see tone notes below |
-| Mixcloud link | ⚠️ Needs real URL |
-| LinkedIn link | https://www.linkedin.com/in/ian-j-kenyon/ | ✅ |
-| GitHub link | https://github.com/houseoflamport | ✅ |
+| Page title (browser tab) | About — Ian Kenyon | ✅ |
+| Meta description | About Ian Kenyon — fifteen years in product, energy, IoT, and built environment. Brighton-based. Building lampara.dev. | ✅ |
+| Back link | Back to projects | ✅ |
+| Section label | About | ✅ |
 
-*Tone notes for about page: informal, specific. Naturalised Britonian. Brighton. Runs, grows things, bakes, DJs. Twenty years of DJing across house and trip hop. The energy/IoT/grid background can live here in more detail. No credentials list, no career summary. Reward the curiosity of someone who's already looked at the projects and wants to know who's behind them.*
+---
+
+### HERO
+
+| Element | Text | Status |
+|---|---|---|
+| Heading | Ian Kenyon | ✅ |
+| Intro para | Based in Brighton. Fifteen years in product, much of it in energy, IoT, and built environment, industries where a bad call doesn't just miss a KPI, it affects how people heat their homes or how much a grid operator makes in a trading day. It changes how you think about problems. | ✅ |
+| Photo | assets/images/ian-about.jpg | 🔒 |
+| Photo alt text | Ian Kenyon and family in Portugal | ✅ |
+
+---
+
+### THE WORK
+
+| Element | Text | Status |
+|---|---|---|
+| Section label | The work | ✅ |
+| Section title | The common thread | ✅ |
+| Para 1 | Understand the real problem, not the stated one. Build across the organisation and ship in volume solving something customers actually care about. | ✅ |
+| Para 2 | That sounds simple. In practice it means spending time on site before writing a requirements document, running trading desks through a regulatory process before the product is finished, and staging a GTM to learn from real usage before committing to a full rollout. | ✅ |
+| Proof point 1 — company | Limejump | ✅ |
+| Proof point 1 — text | Led the product that enabled frequency response trading at grid scale. Six months ahead of schedule. Over £300k a week of revenue running through it, with board sign-off including Shell. | ✅ |
+| Proof point 2 — company | Paxton | ✅ |
+| Proof point 2 — text | Took a next-generation access control platform from zero to £2m ARR. That started with two weeks observing installers on site before touching a requirements document. | ✅ |
+| Proof point 3 — company | SNRG | ✅ |
+| Proof point 3 — text | Rebuilt the customer app around meter-level data and a deep understanding of the customers that used it. Staged the GTM to solve problems quickly and enhance the solution over time. Real usage before a full rollout. | ✅ |
+| CV prompt text | Want the full picture? | ✅ |
+| CV button | Download CV | ✅ |
+| CV file | assets/cv/ian-kenyon-cv.pdf | 🔒 |
+
+---
+
+### WHY THE SIDE PROJECTS
+
+| Element | Text | Status |
+|---|---|---|
+| Section label | Why the side projects | ✅ |
+| Section title | Always curious | ✅ |
+| Para 1 | Between roles I'm always curious, so I'm now trying those projects for real. Not to fill time, to stay sharp and to find out if ideas that have been sitting in my head for years are actually worth something. | ✅ |
+| Para 2 | Yourewild started as a competition entry in 2019. I came second. I sat on it for five years and now I'm actually building it. Slipstream came from running alone and wanting something to race against. | ✅ |
+| Para 3 | Both are on lampara.dev, documented so you can see the thought process in whatever state they're in. The decisions, the dead ends, what gets killed and why. | ✅ |
+| Link 1 | View Yourewild → | ✅ |
+| Link 2 | View Slipstream → | ✅ |
+
+---
+
+### OUTSIDE WORK
+
+| Element | Text | Status |
+|---|---|---|
+| Section label | Outside work | ✅ |
+| Section title | Brighton since 2015 | ✅ |
+| Intro para | Not planning to leave. Two teenagers, a partner who teaches yoga, a network of good people. | ✅ |
+| Card 1 label | Music | ✅ |
+| Card 1 text | DJing for over twenty years. Mostly house and trip hop. Active on Mixcloud. | ✅ |
+| Card 2 label | Movement | ✅ |
+| Card 2 text | Still running. Occasionally swimming. The South Downs are right there. | ✅ |
+| Card 3 label | Growing things | ✅ |
+| Card 3 text | A greenhouse that takes more attention than it should. Always growing something. | ✅ |
+| Card 4 label | Brighton | ✅ |
+| Card 4 text | Genuinely a great place to be. The sea helps. | ✅ |
+| Link 1 | Mixes on Mixcloud ↗ | ✅ |
+| Link 2 | LinkedIn ↗ | ✅ |
+| Link 3 | GitHub ↗ | ✅ |
 
 ---
 
@@ -124,51 +193,25 @@ Status key: ✅ Agreed | ⚠️ Needs input | 🔒 Fixed (functional text, don't
 
 | Element | Text | Status |
 |---|---|---|
-| Page title (browser tab) | Slipstream — Race your ghost | ✅ |
+| Page title (browser tab) | Slipstream — Ian Kenyon | ✅ |
 | Hero one-liner | Race a ghost of any run, by anyone. Upload a GPX, share a link, and find out if you're faster. | ✅ |
-| Hero sub-label | Status: Early build — March 2026 | ✅ |
-| The Problem — section title | The Problem | ✅ |
+| Status badge | Active development | ✅ |
 | The Problem — lead | Runners want something to chase. Training alone means there's nothing to race against. | ✅ |
 | The Problem — para 1 | Whether you're a runner, cyclist, or swimmer, your best performances happen when there's something to chase. A training partner, a rival, a record. But finding someone to compete with at the right time, at the right level? That's rarely possible when you're heading out alone. | ✅ |
 | The Problem — para 2 | Slipstream solves this. Upload a GPX from any Garmin run, share a link, and race the ghost of that run on your next effort. The competition is always there, whenever you are. | ✅ |
-| How It Works — section title | How It Works | ✅ |
-| How It Works — intro | Four steps. No account. Works on any phone. | ✅ |
-| How It Works — step 1 title | Export your run | ✅ |
-| How It Works — step 1 desc | Download a GPX file from Garmin Connect on your desktop. Any run, any distance. | ✅ |
-| How It Works — step 2 title | Upload to Slipstream | ✅ |
-| How It Works — step 2 desc | Open Slipstream on your phone and upload the file. It pulls the pace data and creates a ghost. | ✅ |
-| How It Works — step 3 title | Share the link | ✅ |
-| How It Works — step 3 desc | Slipstream gives you a URL. Send it to yourself or anyone else via iMessage, WhatsApp, or wherever. | ✅ |
-| How It Works — step 4 title | Race it | ✅ |
-| How It Works — step 4 desc | Open the link, hit start, and run. One indicator tells you whether you're ahead of the ghost or behind. That's it. | ✅ |
-| Build stage — section title | Where It Is Now | ✅ |
-| Build stage 1 — label | Done | ✅ |
-| Build stage 1 — title | Core concept and design | ✅ |
-| Build stage 1 — desc | The ghost mechanic is defined. The run screen design is agreed: dark, minimal, built for daylight. A three-state colour system, orange behind, cyan locked in, green ahead, communicates everything without you having to think about it. | ✅ |
-| Build stage 2 — label | Now | ✅ |
-| Build stage 2 — title | GPX import and ghost playback | ✅ |
-| Build stage 2 — desc | Building the core journey: export from Garmin, import to Slipstream, share a link, race the ghost. The goal is a stranger completing that journey in under three minutes without help. | ✅ |
-| Build stage 3 — label | Next | ✅ |
-| Build stage 3 — title | Real tester runs | ✅ |
-| Build stage 3 — desc | Getting the app in front of actual Garmin runners. Watching where it breaks. Fixing the one journey before adding anything else. | ✅ |
-| Build stage 4 — label | Horizon | ✅ |
-| Build stage 4 — title | Live multiplayer | ✅ |
-| Build stage 4 — desc | The long-term goal: running with a real person in real time, anywhere in the world. A ghost of a live runner, not a recorded one. That's the north star. The MVP gets there first. | ✅ |
-| Next Steps — section title | What Happens Next | ✅ |
-| Next Steps — item 1 | Iterate on the prototype based on initial self-testing | ✅ |
-| Next Steps — item 2 | Release to a small select group of runners for first real-world feedback | ✅ |
-| Next Steps — item 3 | Simplify the social layer, how runners share routes and challenge each other across distances | ✅ |
-| Feedback form — heading | Try it. Tell me what broke. | ✅ |
-| Feedback form — intro | This is an early build. The point of sharing it now is to find out what doesn't work before building more. Honest feedback is more useful than polite feedback. | ✅ |
-| Feedback form — q1 label | How did it feel overall? | ✅ |
-| Feedback form — q1 type | Star rating (1–5) | 🔒 |
-| Feedback form — q2 label | Where did it break, or what confused you? | ✅ |
-| Feedback form — q2 type | Textarea | 🔒 |
-| Feedback form — q3 label | Would the ghost mechanic actually change how you run? | ✅ |
-| Feedback form — q3 type | Radio: Yes, probably / Not sure / Probably not | 🔒 |
-| Feedback form — q4 label | Anything else worth knowing? | ✅ |
-| Feedback form — q4 type | Textarea (optional) | 🔒 |
-| Feedback form — submit button | Send feedback | ✅ |
+| How It Works — step 1 | Export your run — Download a GPX file from Garmin Connect on your desktop. Any run, any distance. | ✅ |
+| How It Works — step 2 | Upload to Slipstream — Open Slipstream on your phone and upload the file. It pulls the pace data and creates a ghost. | ✅ |
+| How It Works — step 3 | Share the link — Slipstream gives you a URL. Send it to yourself or anyone else via iMessage, WhatsApp, or wherever. | ✅ |
+| How It Works — step 4 | Race it — Open the link, hit start, and run. One indicator tells you whether you're ahead of the ghost or behind. That's it. | ✅ |
+| Stage 1 | Concept — Defined the core problem and validated that ghost-racing was the right mechanic to solve it. | ✅ |
+| Stage 2 | MVP / Prototype — Built the first working version, GPS tracking, ghost recording, and basic run comparison. | ✅ |
+| Stage 3 (Now) | Core Loop Built — Live GPS tracking, ghost racing, real-time position indicator, and run summary are all working. Iterating on the prototype and preparing for select-group testing. | ✅ |
+| Stage 4 (Decision pending) | Pivot assessment — The core loop is built and works. The original north star, live GPS multiplayer, is technically achievable but complex to build for uncertain near-term benefit. Currently assessing whether a simpler model, racing real people's real recorded routes, is the right place to focus. The decision will be documented here either way. | ✅ |
+| What's Next — item 1 | Complete the pivot assessment, simpler recorded-route model vs the original live multiplayer ambition | ✅ |
+| What's Next — item 2 | Document the decision clearly, whatever it is | ✅ |
+| What's Next — item 3 | If continuing, release to a small select group of runners for first real-world feedback before building further | ✅ |
+| Feedback heading | Share Your Thoughts | ✅ |
+| Feedback intro | Tried Slipstream? Your feedback directly shapes what gets built next. It takes two minutes. | ✅ |
 
 ---
 
@@ -176,50 +219,30 @@ Status key: ✅ Agreed | ⚠️ Needs input | 🔒 Fixed (functional text, don't
 
 | Element | Text | Status |
 |---|---|---|
-| Page title (browser tab) | You're-wild — Discover rewilding near you | ✅ |
-| Hero one-liner | The UK has 60 verified rewilding sites. Most people have never heard of them, and have no idea one might be ten miles from where they live. You're-wild changes that. | ✅ |
-| Hero sub-label | Status: Live — March 2026 | ✅ |
-| The Problem — section title | The Problem | ✅ |
-| The Problem — lead | Rewilding is happening across the UK. It's invisible to almost everyone who isn't already involved. | ✅ |
-| The Problem — para 1 | There are projects bringing back beavers, curlews, native woodland. There are landowners who've handed over farmland to nature. There are corridors forming between sites, wildlife moving through landscapes it hasn't touched in decades. None of this is easy to find. | ✅ |
-| The Problem — para 2 | And for the person who wants to do something in their own garden, the gap between "I want to help" and "I know what to plant and where to buy it" is wide enough that most people don't cross it. Information exists, but it's scattered, technical, and not built around what someone actually needs to act. | ✅ |
-| The Problem — para 3 | You're-wild connects those two things: what's already happening near you, and what you can do about your own patch. | ✅ |
-| How It Works — section title | How It Works | ✅ |
-| How It Works — intro | Three things in one place. No account needed. | ✅ |
-| How It Works — step 1 title | Discover | ✅ |
-| How It Works — step 1 desc | Browse an interactive map of rewilding sites across the UK. Click any site to see what's there, what habitat it supports, and whether you can visit. | ✅ |
-| How It Works — step 2 title | Understand your local picture | ✅ |
-| How It Works — step 2 desc | Enter your postcode. See which sites are nearby, and whether you're close to a wildlife corridor, a connected chain of habitat that wildlife can actually move through. | ✅ |
-| How It Works — step 3 title | Get a planting plan | ✅ |
-| How It Works — step 3 desc | Tell it your garden size, type, and what you want to support. It returns a seasonal planting plan with native species matched to your location, and links to nurseries where you can buy them. | ✅ |
-| Build stage — section title | Where It Is Now | ✅ |
-| Build stage 1 — label | Done | ✅ |
-| Build stage 1 — title | Map live with 60 verified sites | ✅ |
-| Build stage 1 — desc | The interactive map is live. Sixty rewilding sites across the UK, manually verified. Each one has habitat type, notable species, and visiting information where it exists. | ✅ |
-| Build stage 2 — label | Done | ✅ |
-| Build stage 2 — title | Postcode search and corridor view | ✅ |
-| Build stage 2 — desc | Enter a postcode and the map centres on nearby sites. Where two or more are within range, a corridor line is drawn between them with a plain-language explanation of what that means for local wildlife. | ✅ |
-| Build stage 3 — label | Now | ✅ |
-| Build stage 3 — title | Planting plan and nursery links | ✅ |
-| Build stage 3 — desc | The personalised planting plan is in active development. Tell it your garden size, current habitat, and goals. It returns native plants by season with at least one verified nursery link per plant. | ✅ |
-| Build stage 4 — label | Next | ✅ |
-| Build stage 4 — title | Real user feedback and iteration | ✅ |
-| Build stage 4 — desc | Getting the full journey in front of people who care about rewilding, including contacts at Highlands Rewilding and Ecosulis, and finding out if it actually changes what they do next. | ✅ |
-| Next Steps — section title | What Happens Next | ✅ |
-| Next Steps — item 1 | Iterate on the prototype, improve filtering, site detail pages, and the 'bring it home' guidance section | ✅ |
-| Next Steps — item 2 | Release to a select group for first real-world feedback on discovery and usability | ✅ |
-| Next Steps — item 3 | Explore partnerships with organisations to grow the verified dataset | ✅ |
-| Feedback form — heading | Use it. Tell me what's missing. | ✅ |
-| Feedback form — intro | The site is live and the map works. The planting plan is coming. What I need now is honest feedback from people who care about this, not just people who are being polite. | ✅ |
-| Feedback form — q1 label | How useful did it feel overall? | ✅ |
-| Feedback form — q1 type | Star rating (1–5) | 🔒 |
-| Feedback form — q2 label | Did it change how you think about your own space or a local site? | ✅ |
-| Feedback form — q2 type | Radio: Yes / Partly / Not really | 🔒 |
-| Feedback form — q3 label | What's missing, or what would make this actually useful to you? | ✅ |
-| Feedback form — q3 type | Textarea | 🔒 |
-| Feedback form — q4 label | Anything else? | ✅ |
-| Feedback form — q4 type | Textarea (optional) | 🔒 |
-| Feedback form — submit button | Send feedback | ✅ |
+| Page title (browser tab) | You're-wild — Ian Kenyon | ✅ |
+| Hero one-liner | A gateway to rewilding yourself and the natural world around you. | ✅ |
+| Status badge | Live — gathering feedback | ✅ |
+| The Problem — lead | People want to connect with rewilding in everyday life, but how do you go about it? | ✅ |
+| The Problem — para 1 | There's a growing desire to engage with the natural world more meaningfully, to visit rewilding projects, to understand what's happening to the land around you, and to think about what you can do in your own space. But the information is scattered, hard to find, and rarely tied to practical next steps. | ✅ |
+| The Problem — para 2 | You're-wild is a curated directory to help you discover the re-wilded world, and work out how to re-wild your own space and bring the experience home with you. 60+ verified sites across the UK, with more being added. | ✅ |
+| How It Works — step 1 | Discover — Browse a curated, verified directory of 60+ rewilding projects across the UK, from large estates to community spaces. | ✅ |
+| How It Works — step 2 | Explore — Filter by region, type, and access. Find rewilding projects near you or plan a visit somewhere new. | ✅ |
+| How It Works — step 3 | Connect — Link directly to each project. Learn what they're doing, why it matters, and how you can get involved. | ✅ |
+| How It Works — step 4 | Bring it home — Find inspiration and practical ideas for re-wilding your own space, however large or small it is. | ✅ |
+| Stage 1 (Done) | Concept — Identified the gap, no central, reliable directory of UK rewilding projects existed. Defined scope and approach. | ✅ |
+| Stage 2 (Now) | MVP / Prototype — Live directory with 60+ verified sites including Scottish Highlands and European locations. Iterating on the prototype and gathering early feedback. | ✅ |
+| Stage 3 | Beta / User Testing — Releasing to a select group. Structured feedback on discovery, filtering, and the 'bring it home' concept. | ✅ |
+| Stage 4 | Growth / Partnerships — Growing to 100+ sites, user-submitted listings with moderation, and partnerships with rewilding organisations. | ✅ |
+| What's Next — item 1 | Iterate on the prototype, improve filtering, site detail pages, and the 'bring it home' guidance section | ✅ |
+| What's Next — item 2 | Release to a select group for first real-world feedback on discovery and usability | ✅ |
+| What's Next — item 3 | Explore partnerships with organisations to grow the verified dataset | ✅ |
+| Where It's Going — individual focus | Early feedback suggests the most engaged users are people who want to do something in their own space, not just discover sites. A future iteration may reframe the experience around the individual and their patch first, with the wider map as context rather than the front door. | ✅ |
+| Where It's Going — nature corridors | The map already draws connection lines between nearby sites. The next iteration makes this the primary feature, showing the connective habitat between sites, the routes wildlife actually moves through. A directory is useful. A network is something else entirely. | ✅ |
+| How It Makes Money — lead | Two-sided platform. Rewilding sites on one side, garden centres and native plant nurseries on the other. | ✅ |
+| How It Makes Money — para 1 | Click-through revenue from both. Sites get visibility with an audience already interested in rewilding. Nurseries get qualified buyers who have just been shown a personalised planting plan. Users get recommendations connected to what is actually happening near them, not generic gardening advice. | ✅ |
+| How It Makes Money — para 2 | The model works because the intent is already there. The user arrives wanting to act. The platform's job is to make the right next step obvious. | ✅ |
+| Feedback heading | Share Your Thoughts | ✅ |
+| Feedback intro | Explored You're-wild? Tell me what you found, what you wanted, and what would make you come back. | ✅ |
 
 ---
 
